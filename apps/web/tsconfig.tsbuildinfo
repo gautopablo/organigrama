@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/appshell.tsx","./src/components/confidencebadge.tsx","./src/components/orggraph.tsx","./src/lib/api.ts","./src/lib/supabase.ts","./src/pages/conflictspage.tsx","./src/pages/directorypage.tsx","./src/pages/importpage.tsx","./src/pages/orgchartpage.tsx","./src/types/orgchart.ts"],"version":"5.9.3"}

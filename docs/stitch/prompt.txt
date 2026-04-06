@@ -1,0 +1,18 @@
+Diseñar una app web interna para gestionar organigrama.
+
+Pantallas:
+1) Organigrama (árbol/grafo con zoom, foco, colapso)
+2) Directorio (tabla con búsqueda y filtros)
+3) Importación (subida de archivo, preview y resultado)
+4) Conflictos (cola de resolución A/B/descartar)
+
+Componentes obligatorios:
+- top nav
+- badges de confidence (AUTO_OK / REVIEW_REQUIRED)
+- source trace por relación de reporte
+- estados: loading, empty, error, success, conflict
+
+Estilo:
+- corporativo sobrio
+- desktop first y responsive
+- accesible (contraste y labels)

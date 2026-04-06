@@ -1,0 +1,140 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1b1b1b;
+  background: #f7f8fb;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.topbar {
+  background: #102a43;
+  color: #fff;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar nav {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-link {
+  color: #d9e2ec;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.nav-link.active {
+  background: #243b53;
+  color: #fff;
+}
+
+main {
+  padding: 24px;
+}
+
+.panel {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+}
+
+button {
+  background: #0b69a3;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.92;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th,
+td {
+  border: 1px solid #e4e7eb;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #f0f4f8;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.badge.ok {
+  background: #e3f9e5;
+  color: #1f7a1f;
+}
+
+.badge.warn {
+  background: #ffe3e3;
+  color: #a61b1b;
+}
+
+.graph-wrap {
+  display: grid;
+  gap: 12px;
+}
+
+.graph-level {
+  background: #fff;
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.graph-row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.graph-node {
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  background: #f0f4f8;
+  color: #102a43;
+}
+
+.error {
+  color: #b42318;
+}
+
+.btn-group {
+  display: flex;
+  gap: 6px;
+}

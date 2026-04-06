@@ -1,0 +1,81 @@
+﻿Área,Usuario (organigrama),Usuario (tabla usuarios),Email usuario,Superior (organigrama),Superior (tabla usuarios),Email superior,Estado revisión,Método match usuario,Método match superior,Observación
+Abastecimiento y Planificación,"Carrizo, Daniel","Carrizo, Daniel",Carrizo@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,exact,exact,
+Abastecimiento y Planificación,"Correa, E","Correa, Eliana",correae@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,manual,exact,
+Abastecimiento y Planificación,"Correa, P","Correa, Paola",correa@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,manual,exact,
+Abastecimiento y Planificación,"Flores, M","Flores, Martin",flores@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,manual,exact,
+Abastecimiento y Planificación,"Fornes, M","Fornes, Manuel",fornesm@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,heuristic,exact,
+Abastecimiento y Planificación,"Garcia, E","García, Emiliano",garciae@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,manual,exact,
+Abastecimiento y Planificación,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,exact,exact,
+Abastecimiento y Planificación,"Martinez, F","Martinez, Federico",martinezf@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,manual,exact,
+Abastecimiento y Planificación,"Moreno, F","Moreno, F",,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,REVISAR,not-found,exact,No encontré coincidencia clara en la tabla de usuarios.
+Abastecimiento y Planificación,"Rios, L","Rios, Leonardo",riosl@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,manual,exact,
+Abastecimiento y Planificación,"Romero, D","Romero, David",,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,REVISAR,manual-no-upn,exact,No encontré coincidencia clara en la tabla de usuarios.
+Abastecimiento y Planificación,"Wawro, H","Wawro, Hugo",wawro@taranto.com.ar,"Gutierrez, Sebastian","Gutierrez, Sebastian",gutierrezs@taranto.com.ar,OK,manual,exact,
+Administración,"Correa, N","Correa, Noelia",correan@taranto.com.ar,"Furlani, Natalia","Furlani, Noelia",furlani@taranto.com.ar,OK,manual,manual,
+Administración,"Furlani, Natalia","Furlani, Noelia",furlani@taranto.com.ar,"Smichowski, Juan","Smichowski, Jose Luis",smichowj@taranto.com.ar,OK,manual,manual,
+Administración,"Sanchez, V","Sanchez Malgioglio, Valentina Noe",sanchezv@taranto.com.ar,"Furlani, Natalia","Furlani, Noelia",furlani@taranto.com.ar,OK,manual,manual,"No aparece 'V. Sánchez'; se vinculó por mejor aproximación a 'Sanchez Malgioglio, Valentina Noe'."
+Administración,"Suesa, M","Suesa, Mariela",suesa@taranto.com.ar,"Furlani, Natalia","Furlani, Noelia",furlani@taranto.com.ar,OK,manual,manual,
+Capital Humano,"Alcanis, Jael","Alcanis, Jael",alcanis@taranto.com.ar,"Caballero, Cecilia","Caballero, Cecilia",ccaballero@taranto.com.ar,OK,exact,exact,
+Capital Humano,"Caballero, Cecilia","Caballero, Cecilia",ccaballero@taranto.com.ar,"Taranto, Cecilia","Taranto, Cinthia",tarantoc@taranto.com.ar,OK,exact,manual,
+Capital Humano,"Figueroa, P","Figueroa, Patricia",figueroa@taranto.com.ar,"Caballero, Cecilia","Caballero, Cecilia",ccaballero@taranto.com.ar,OK,manual,exact,
+Capital Humano,"Gil, M",Gil Marcela,gilm@taranto.com.ar,"Caballero, Cecilia","Caballero, Cecilia",ccaballero@taranto.com.ar,OK,manual,exact,
+Capital Humano,"Rodriguez, Juan M","Rodriguez, Juan Manuel",rodriguezjm@taranto.com.ar,"Caballero, Cecilia","Caballero, Cecilia",ccaballero@taranto.com.ar,OK,heuristic,exact,
+Div. Suspensión y Dirección,"Aciar, Marcelo","Aciar, Marcelo",aciar@taranto.com.ar,"Fiol, Sebastian","Fiol, Sebastian",fiol@taranto.com.ar,OK,exact,exact,
+Div. Suspensión y Dirección,"Aragon, Mauricio","Aragon, Mauricio",aragonm@taranto.com.ar,"Fiol, Sebastian","Fiol, Sebastian",fiol@taranto.com.ar,OK,exact,exact,
+Div. Suspensión y Dirección,"Elizondo, M","Elizondo, Maximiliano",elizondom@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,manual,exact,
+Div. Suspensión y Dirección,"Fluixa, L","Fluixa, Leonardo",fluixal@taranto.com.ar,"D'Asta, Florencia","D´Asta, Fabiola",dasta@taranto.com.ar,OK,manual,manual,
+Div. Suspensión y Dirección,"Guillen, L","Guillen, Lucas",guillen@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,manual,exact,
+GICASH,"Anitori, Rafael","Anitori, Rafael",anitori@taranto.com.ar,"Illanez, E","Illanez, Eduardo",illanez@taranto.com.ar,OK,exact,manual,
+GICASH,"Burguez, Florencia","Burguez, Florencia",burguezf@taranto.com.ar,"D'Asta, Florencia","D´Asta, Fabiola",dasta@taranto.com.ar,OK,exact,manual,
+GICASH,"D'Asta, Florencia","D´Asta, Fabiola",dasta@taranto.com.ar,"Taranto, Nestor","Taranto, Norberto",nct@taranto.com.ar,OK,manual,manual,"El organigrama muestra 'F. D'Asta'; se vinculó a 'D´Asta, Fabiola'."
+GICASH,"Goria, G","Goria, Guillermo",goria@taranto.com.ar,"D'Asta, Florencia","D´Asta, Fabiola",dasta@taranto.com.ar,OK,manual,manual,
+GICASH,"Illanez, E","Illanez, Eduardo",illanez@taranto.com.ar,"D'Asta, Florencia","D´Asta, Fabiola",dasta@taranto.com.ar,OK,manual,manual,
+GICASH,"Melian, A","Melian, Americo",amelian@taranto.com.ar,"Goria, G","Goria, Guillermo",goria@taranto.com.ar,OK,manual,manual,
+GICASH,"Micheletti, M","Micheletti, Mario",micheletti@taranto.com.ar,"Illanez, E","Illanez, Eduardo",illanez@taranto.com.ar,OK,manual,manual,
+GICASH,"Pereyra, E","Pereyra, Elio",pereyrae@taranto.com.ar,"D'Asta, Florencia","D´Asta, Fabiola",dasta@taranto.com.ar,OK,manual,manual,
+GICASH,"Perez, M","Perez, Marcelo",perezm@taranto.com.ar,"Illanez, E","Illanez, Eduardo",illanez@taranto.com.ar,OK,manual,manual,"El organigrama muestra solo inicial; se vinculó a 'Perez, Marcelo'."
+GICASH,"Troncozo, J","Troncozo, Juan",troncoso@taranto.com.ar,"D'Asta, Florencia","D´Asta, Fabiola",dasta@taranto.com.ar,OK,manual,manual,
+General,"Anzotegui, Luis","Anzotegui, Luis Armando",anzotel@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,heuristic,manual,
+General,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,exact,manual,
+General,"Colotta, G","Colotta, Gustavo Daniel",colottag@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,heuristic,manual,
+General,"Defani, Juan","Defani, Juan",,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,REVISAR,not-found,manual,No encontré coincidencia clara en la tabla de usuarios.
+General,"Gonzalez, E","Gonzalez, E",,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,REVISAR,not-found,manual,No encontré coincidencia clara en la tabla de usuarios.
+General,"Montilla, Luis","Montilla, Lucas",montilla@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,manual,manual,"Se vinculó a 'Montilla, Lucas' por coincidencia de apellido e inicial."
+General,"Pachman, Luis","Pachmann, Luciano Pablo",pachmann@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,manual,manual,
+General,"Smichowski, Juan","Smichowski, Jose Luis",smichowj@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,manual,manual,
+General,"Taranto, Cecilia","Taranto, Cinthia",tarantoc@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,manual,manual,
+General,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,,,,OK,manual,,
+General,"Taranto, Nestor","Taranto, Norberto",nct@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,manual,manual,
+General,"Ventrice, Gustavo","Ventrice, Gustavo Horacio",ventricg@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,manual,manual,
+General/Div. Suspensión,"Fiol, Sebastian","Fiol, Sebastian",fiol@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,exact,exact,
+Ingeniería,"Brochero, Javier","Brochero, Javier",brochero@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,exact,exact,
+Ingeniería,"Firmapaz, Alfredo","Firmapaz, Alfredo",firmapaz@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,exact,exact,
+Ingeniería,"Leiva, Mauricio","Leiva, Mauricio",leivam@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,exact,exact,
+Ingeniería,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,exact,exact,
+Ingeniería,"Riveros, Emilio","Riveros, Emilio",riveros@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,exact,exact,
+Ingeniería,"Sanchez, Victoria","Sanchez, Agustina",sancheza@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,manual,exact,"No aparece 'Victoria Sanchez'; se vinculó por mejor aproximación a 'Sanchez, Agustina'."
+Ingeniería,"Vazquez, P","Vazquez, Pilar",vazquezp@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,manual,exact,
+Ingeniería,"Vera, Juan","Vera, Juan",veraj@taranto.com.ar,"Ranea, Mauricio","Ranea, Mauricio",ranea@taranto.com.ar,OK,exact,exact,
+Mantenimiento/Mecatrónica,"Bernardini, Silvio","Bernardini, Silvio",bernardini@taranto.com.ar,"Fabregas, Ester","Fabregas, Maria Ester",fabregas@taranto.com.ar,OK,exact,manual,
+Mantenimiento/Mecatrónica,"Chaves, M","Chaves, M",,"Fabregas, Ester","Fabregas, Maria Ester",fabregas@taranto.com.ar,REVISAR,not-found,manual,No encontré coincidencia clara en la tabla de usuarios.
+Mantenimiento/Mecatrónica,"Dias, Jose Luis","Dias, Jose Luis",,"Fabregas, Ester","Fabregas, Maria Ester",fabregas@taranto.com.ar,REVISAR,not-found,manual,No encontré coincidencia clara en la tabla de usuarios.
+Mantenimiento/Mecatrónica,"Fabregas, Ester","Fabregas, Maria Ester",fabregas@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,manual,exact,
+Mantenimiento/Mecatrónica,"Manrique, M","Manrique, M",,"Fabregas, Ester","Fabregas, Maria Ester",fabregas@taranto.com.ar,REVISAR,not-found,manual,No encontré coincidencia clara en la tabla de usuarios.
+Mantenimiento/Mecatrónica,"Rivero, E","Rivero, Eduardo",riveroe@taranto.com.ar,"Fabregas, Ester","Fabregas, Maria Ester",fabregas@taranto.com.ar,OK,manual,manual,
+Mantenimiento/Mecatrónica,"Turchetti, C","Turchetti, Cecilia",turchetti@taranto.com.ar,"Fabregas, Ester","Fabregas, Maria Ester",fabregas@taranto.com.ar,OK,manual,manual,
+Matricería,"Bumjeil, Alfonso","Bumjeil, Alfonso",bumjeil@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,exact,exact,
+Matricería,"Comeglio, A","Comeglio, Angel",comeglioa@taranto.com.ar,"Bumjeil, Alfonso","Bumjeil, Alfonso",bumjeil@taranto.com.ar,OK,manual,exact,"El organigrama muestra solo inicial; se vinculó a 'Comeglio, Angel'."
+Matricería,"Vieyra, M",Vieyra Mauro,vieyra@taranto.com.ar,"Bumjeil, Alfonso","Bumjeil, Alfonso",bumjeil@taranto.com.ar,OK,manual,exact,
+Producción Sellado,"Aguero, Gaston","Aguero, Gaston",aguerog@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,exact,exact,
+Producción Sellado,"Aguero, Jorge","Aguero, Jorge",aguero@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,exact,exact,
+Producción Sellado,"Andrada, Jorge","Andrada, Jorge",andradaj@taranto.com.ar,"Aguero, Jorge","Aguero, Jorge",aguero@taranto.com.ar,OK,exact,exact,
+Producción Sellado,"Avendano, Daniel","Avendaño, Daniel",avendano@taranto.com.ar,"Aguero, Gaston","Aguero, Gaston",aguerog@taranto.com.ar,OK,exact,exact,
+Producción Sellado,"Bustos, Jorge","Bustos, Jorge",bustosj@taranto.com.ar,"Aguero, Jorge","Aguero, Jorge",aguero@taranto.com.ar,OK,exact,exact,
+Producción Sellado,"Conde, Ricardo","Conde, Ricardo",conder@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,exact,exact,
+Producción Sellado,De los Santos,"De los Santos, Sergio",santoss@taranto.com.ar,"Aguero, Jorge","Aguero, Jorge",aguero@taranto.com.ar,OK,manual,exact,
+Producción Sellado,"Poblete, Victor","Poblete, Victor",poblete@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,exact,exact,
+Producción Sellado,"Vargas, Ricardo","Vargas, Nestor",vargasn@taranto.com.ar,"Cane, Alejandro","Cane, Alejandro",cane@taranto.com.ar,OK,surname-only,exact,
+Producción Sellado,"Vargas, Nicolas","Vargas, Nestor",vargasn@taranto.com.ar,"Vargas, Ricardo","Vargas, Nestor",vargasn@taranto.com.ar,OK,surname-only,surname-only,
+Sistemas,"Llado, Damian","Llado, Damian",damian@taranto.com.ar,"Manjarin, Miguel","Manjarin, Martin",manjarim@taranto.com.ar,OK,exact,manual,
+Sistemas,"Manjarin, Miguel","Manjarin, Martin",manjarim@taranto.com.ar,"Taranto, Diego","Taranto, Diego Ariel",diego@taranto.com.ar,OK,manual,manual,
+Sistemas,"Rodriguez, E","Rodriguez, Elvio",elvior@taranto.com.ar,"Llado, Damian","Llado, Damian",damian@taranto.com.ar,OK,manual,exact,"El organigrama muestra solo inicial; se vinculó a 'Rodriguez, Elvio'."
