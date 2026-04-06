@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import type { PropsWithChildren } from "react";
+import { useAuth } from "../lib/AuthContext";
 
 const navItems = [
   { to: "/organigrama", label: "Organigrama" },
@@ -10,6 +11,7 @@ const navItems = [
 
 export function AppShell({ children }: PropsWithChildren) {
   const { pathname } = useLocation();
+  const { session, signOut } = useAuth();
 
   return (
     <div className="app-shell">
@@ -26,6 +28,11 @@ export function AppShell({ children }: PropsWithChildren) {
             </Link>
           ))}
         </nav>
+        {session && (
+          <button className="btn-logout" type="button" onClick={() => void signOut()}>
+            Salir
+          </button>
+        )}
       </header>
       <main>{children}</main>
     </div>

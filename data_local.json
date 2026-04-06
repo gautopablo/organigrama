@@ -1,0 +1,2792 @@
+[
+  {
+    "nombre": "Perez Quinteros, Marcelo Alejandro",
+    "legajo": "110040",
+    "email": "perezm@taranto.com.ar",
+    "cargo": "Auditor GICASH / Analista de planeamiento y control de la producción",
+    "area": "GICASH",
+    "manager_nombre": "Illanez, Eduardo Javier",
+    "manager_legajo": "512307",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Aciar, Marcelo Omar",
+    "legajo": "110044",
+    "email": "aciar@taranto.com.ar",
+    "cargo": "Líder turno",
+    "area": "Div. Suspensión y Dirección",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Bumjeil, Juan Alfonso",
+    "legajo": "110046",
+    "email": "bumjeil@taranto.com.ar",
+    "cargo": "Líder Matricería",
+    "area": "Matricería",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Montano, Juan Fernando",
+    "legajo": "110052",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Carrizo, Daniel Ricardo",
+    "legajo": "110067",
+    "email": "carrizo@taranto.com.ar",
+    "cargo": "Asistente Compras y facturación",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Poblete, Victor Ramon",
+    "legajo": "110076",
+    "email": "poblete@taranto.com.ar",
+    "cargo": "Líder planta UTIII",
+    "area": "Producción Sellado",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Garcia, Adolfo Andres",
+    "legajo": "110103",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Llado, Damian",
+    "legajo": "110108",
+    "email": "damian@taranto.com.ar",
+    "cargo": "Líder Sistemas",
+    "area": "Sistemas",
+    "manager_nombre": "Juarez Javier",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Firmapaz, Alfredo Luis",
+    "legajo": "110123",
+    "email": "firmapaz@taranto.com.ar",
+    "cargo": "Asistente Ingeniería",
+    "area": "Ingeniería",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Naveda, Juan Alberto",
+    "legajo": "110125",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Troncozo, Juan Antonio",
+    "legajo": "110146",
+    "email": "troncoso@taranto.com.ar",
+    "cargo": "Responsable seguridad y salud trabajo",
+    "area": "GICASH",
+    "manager_nombre": "D'Asta Fabiola",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Benegas, Andres Javier",
+    "legajo": "110158",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Molina, Claudio Alejandro",
+    "legajo": "110188",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gonzalez, Nelson Anibal",
+    "legajo": "110191",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Cane, Alejandro Raul",
+    "legajo": "110195",
+    "email": "cane@taranto.com.ar",
+    "cargo": "Director Industrial UT",
+    "area": "General",
+    "manager_nombre": "Taranto Diego",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Pereyra, Elio Cesar",
+    "legajo": "110206",
+    "email": "pereyrae@taranto.com.ar",
+    "cargo": "Responsable gestión proveedores y medio ambiente",
+    "area": "GICASH",
+    "manager_nombre": "D'Asta Fabiola",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Leiva, Daniel Ernesto",
+    "legajo": "110220",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Salinas, Luis Eduardo",
+    "legajo": "110247",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vargas, Juan Ramon",
+    "legajo": "110250",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Garcia Andres",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Ruarte, Sergio Carlos",
+    "legajo": "110253",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Nievas, Alejandro Javier",
+    "legajo": "110263",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Albornoz, Ariel Alberto",
+    "legajo": "110269",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Figueroa, Leonardo Ernesto",
+    "legajo": "110272",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Novaro, Fernando Dario",
+    "legajo": "110282",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Morales, Ricardo Daniel",
+    "legajo": "110283",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Illanez, Eduardo Javier",
+    "manager_legajo": "512307",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aguero, Gaston Adrian",
+    "legajo": "110287",
+    "email": "aguerog@taranto.com.ar",
+    "cargo": "Líder planta UTIII",
+    "area": "Producción Sellado",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Rodriguez, Elvio Ruben",
+    "legajo": "110289",
+    "email": "elvior@taranto.com.ar",
+    "cargo": "Analista Programador Sistemas",
+    "area": "Sistemas",
+    "manager_nombre": "Llado, Damian",
+    "manager_legajo": "110108",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Canadas, Sergio Daniel",
+    "legajo": "110304",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Chaves, Marcelo Ariel",
+    "manager_legajo": "110341",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Pellicer, Diego Javier",
+    "legajo": "110305",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bumjeil Alfonso",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Flores Meni, Alejandro Martin",
+    "legajo": "110322",
+    "email": "flores@taranto.com.ar",
+    "cargo": "Asistente Recepción materiales",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Sanchez, Fabian Alejandro",
+    "legajo": "110326",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bumjeil Alfonso",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Chaves, Marcelo Ariel",
+    "legajo": "110341",
+    "email": "",
+    "cargo": "Líder Mantenimiento UTIII - UTIV",
+    "area": "Mantenimiento/Mecatrónica",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Chavero, Miguel Angel",
+    "legajo": "110355",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Silva, Miguel Angel",
+    "legajo": "110358",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Salinas, Mario Andres",
+    "legajo": "110359",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Rios, Leonardo Andres",
+    "legajo": "110379",
+    "email": "riosl@taranto.com.ar",
+    "cargo": "Asistente PCP UTIII",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Zarate, Maximiliano",
+    "legajo": "110388",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Castro, Fernando Ramon",
+    "legajo": "110392",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Garcia Andres",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Marti, Luis Alberto",
+    "legajo": "110430",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Romero, Mario Alberto",
+    "legajo": "110435",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Troncozo, Miguel Angel",
+    "legajo": "110437",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Adaro, Gabriel German",
+    "legajo": "110444",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Goria, Guillermo Antonio",
+    "legajo": "110445",
+    "email": "goria@taranto.com.ar",
+    "cargo": "Responsable laboratorio y metrología",
+    "area": "GICASH",
+    "manager_nombre": "D'Asta Fabiola",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Vieyra, Roberto Mauro",
+    "legajo": "110450",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bumjeil Alfonso",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gutierrez Torres, Alfredo Damian",
+    "legajo": "110454",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bumjeil Alfonso",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Ranea Vera, Mauricio",
+    "legajo": "110460",
+    "email": "ranea@taranto.com.ar",
+    "cargo": "Gerente Ingeniería",
+    "area": "Ingeniería",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Olmos, Cristian Leonardo",
+    "legajo": "110463",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aciar, Pablo Daniel",
+    "legajo": "110473",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gonzalez, Juan Manuel",
+    "legajo": "110477",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vargas, Maximiliano Emanuel",
+    "legajo": "110480",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vargas, Mauricio Martin",
+    "legajo": "110587",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Diaz, Oscar Nazareno",
+    "legajo": "110592",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Leiva, Mauricio Roberto",
+    "legajo": "110651",
+    "email": "leivam@taranto.com.ar",
+    "cargo": "Asistente Ingeniería",
+    "area": "Ingeniería",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Suesa, Mariela Cristina",
+    "legajo": "110684",
+    "email": "suesa@taranto.com.ar",
+    "cargo": "Asistente Administración / Recepción",
+    "area": "Administración",
+    "manager_nombre": "Furlani, Noelia Del Valle",
+    "manager_legajo": "110948",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Elizondo, Eduardo Abel",
+    "legajo": "110692",
+    "email": "elizondom@taranto.com.ar",
+    "cargo": "Asistente Ingeniería de desarrollo",
+    "area": "Div. Suspensión y Dirección",
+    "manager_nombre": "Garcia Andres",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Matus, Carlos Gabriel",
+    "legajo": "110693",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Bustos, Abraham Dario",
+    "legajo": "110803",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Rios, Osvaldo Andres",
+    "legajo": "110813",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Bustos, Claudio Marcelo",
+    "legajo": "110934",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Romero, Daniel Javier",
+    "legajo": "110937",
+    "email": "",
+    "cargo": "Chofer",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Vega, Diego Alberto",
+    "legajo": "110952",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Barrios Luna, Silvio Mauricio",
+    "legajo": "110967",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Atampiz, David Anibal",
+    "legajo": "110988",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "D'Asta Fabiola",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Cesped, Juan Sebastian",
+    "legajo": "110996",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Quiroga, Mario Alejandro",
+    "legajo": "111001",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Melian, Americo",
+    "legajo": "111004",
+    "email": "amelian@taranto.com.ar",
+    "cargo": "Asistente laboratorio",
+    "area": "GICASH",
+    "manager_nombre": "D'Asta Fabiola",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Fornes, Jose Manuel",
+    "legajo": "510436",
+    "email": "fornesm@taranto.com.ar",
+    "cargo": "Asistente PCP UTI - UTII",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Dominguez, Ramon Saul",
+    "legajo": "510500",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Pastran, Leandro Daniel",
+    "legajo": "510531",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Chaves, Marcelo Ariel",
+    "manager_legajo": "110341",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Altamira, Alejandro Andres",
+    "legajo": "510574",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Fabregas Bavio, Maria Ester",
+    "legajo": "510701",
+    "email": "fabregas@taranto.com.ar",
+    "cargo": "Gerente Mantenimiento y Mecatrónica",
+    "area": "Mantenimiento/Mecatrónica",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Figueroa Brizuela, Patricia Del Carmen",
+    "legajo": "511041",
+    "email": "figueroa@taranto.com.ar",
+    "cargo": "Responsable CH UTIII - UTIV",
+    "area": "Capital Humano",
+    "manager_nombre": "Caballero Cecilia",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Correa Povse, Silvia Paola",
+    "legajo": "511285",
+    "email": "correa@taranto.com.ar",
+    "cargo": "Analista PCP",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Ruiz, Juan Jose",
+    "legajo": "511726",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Fernandez Allendes, Jose Miguel",
+    "legajo": "512103",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Chaves, Marcelo Ariel",
+    "manager_legajo": "110341",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Dasta Cudo, Maria Fabiola",
+    "legajo": "512216",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Illanez, Eduardo Javier",
+    "legajo": "512307",
+    "email": "illanez@taranto.com.ar",
+    "cargo": "Líder GICASH",
+    "area": "GICASH",
+    "manager_nombre": "D'Asta Fabiola",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Gutierrez Cumpian, Nelio Sebastian",
+    "legajo": "512633",
+    "email": "gutierrezs@taranto.com.ar",
+    "cargo": "Gerente Abastecimiento y planificación",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Correa, Eliana Cecilia",
+    "legajo": "512857",
+    "email": "correae@taranto.com.ar",
+    "cargo": "Asistente Compras y facturación",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Gordillo, Diego Exequiel",
+    "legajo": "513013",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Brizuela, Gabriel Jose",
+    "legajo": "513959",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Garcia Andres",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Botella Herrera, Alfonso Antonio",
+    "legajo": "513965",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bumjeil Alfonso",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vilches, Luis Ivan",
+    "legajo": "513981",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Soto Poblete, Juan Jose",
+    "legajo": "514207",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Iba�Ez, Javier Gonzalo",
+    "legajo": "514209",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Barboza Velazquez, Marcelo Ariel",
+    "legajo": "514290",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Hobredor Lescano, Lucas Matias",
+    "legajo": "514304",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Castro, Cristian Alberto",
+    "legajo": "514325",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Cerda Cardozo, Hernan Gabriel",
+    "legajo": "514396",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Bernardini, Silvio Guillermo",
+    "legajo": "514398",
+    "email": "bernardini@taranto.com.ar",
+    "cargo": "Líder Mantenimiento",
+    "area": "Mantenimiento/Mecatrónica",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Molina, Williams Alfredo",
+    "legajo": "514513",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Garcia Andres",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Zalazar, Oscar Matias",
+    "legajo": "514608",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Correa, Raul Osvaldo",
+    "legajo": "514629",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Chaves, Marcelo Ariel",
+    "manager_legajo": "110341",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Forte, Maximiliano Exequiel",
+    "legajo": "514644",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Monta�O Fernando",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Tejada, Guillermo Martin",
+    "legajo": "514646",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Garcia Andres",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Encina Gonzalez, Paublo Exequiel",
+    "legajo": "514654",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Escudero, Nelson Mauricio",
+    "legajo": "514689",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Riveros, Victor Emilio",
+    "legajo": "514749",
+    "email": "riveros@taranto.com.ar",
+    "cargo": "Analista Ingeniería",
+    "area": "Ingeniería",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Mercado Perez, Gonzalo Imanol",
+    "legajo": "514788",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Chaves, Marcelo Ariel",
+    "manager_legajo": "110341",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Pineda Castro, Mariano",
+    "legajo": "514909",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Poblete, Victor Ramon",
+    "manager_legajo": "110076",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vazquez Sobelvio, Maria Del Pilar",
+    "legajo": "514914",
+    "email": "vazquezp@taranto.com.ar",
+    "cargo": "Analista Diseño",
+    "area": "Ingeniería",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Nu�Ez, Franco Dario",
+    "legajo": "514926",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Guardia Farias, Emiliano Nicolas",
+    "legajo": "514927",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Gaston",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Kenan Bustos, Maria Lourdes",
+    "legajo": "514957",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Furlani, Noelia Del Valle",
+    "manager_legajo": "110948",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Parra Frate, Juan Francisco",
+    "legajo": "514979",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Castilla Sierra, Maria Paz",
+    "legajo": "514990",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gauto, Pablo Facundo",
+    "legajo": "514991",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Bustos Lara, Jorge Andres",
+    "legajo": "110010",
+    "email": "bustosj@taranto.com.ar",
+    "cargo": "Líder corte juntas blandas",
+    "area": "Producción Sellado",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Vargas, Ricardo Ramon",
+    "legajo": "110012",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Chena, Marcos Omar",
+    "legajo": "110018",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Arancibia, Fabian Antonio",
+    "legajo": "110022",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "De Los Santos, Sergio Anibal",
+    "legajo": "110023",
+    "email": "santoss@taranto.com.ar",
+    "cargo": "Líder empaque y expedición",
+    "area": "Producción Sellado",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Sanchez, Nelson Dario",
+    "legajo": "110032",
+    "email": "sancheza@taranto.com.ar",
+    "cargo": "Analista Ingeniería",
+    "area": "Ingeniería",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Aguero, Jorge Jose",
+    "legajo": "110034",
+    "email": "aguero@taranto.com.ar",
+    "cargo": "Líder planta UTI / UTII",
+    "area": "Producción Sellado",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Nievas, Nestor Edgardo",
+    "legajo": "110035",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Avenda�O, Enrique Daniel",
+    "legajo": "110037",
+    "email": "avendano@taranto.com.ar",
+    "cargo": "Líder turno",
+    "area": "Producción Sellado",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Oro, Daniel Ceferino",
+    "legajo": "110041",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vargas, Nestor Horacio",
+    "legajo": "110042",
+    "email": "vargasn@taranto.com.ar",
+    "cargo": "Líder armado juegos",
+    "area": "Producción Sellado",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Gallardo, Guillermo Eduardo",
+    "legajo": "110047",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Oliva, Juan Jose",
+    "legajo": "110058",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Cappa Naveda, Sergio Andres",
+    "legajo": "110065",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Andrada Tello, Jorge Washington",
+    "manager_legajo": "110634",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Heredia, Jorge Marcelo",
+    "legajo": "110066",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Zalazar, Sergio Esteban",
+    "legajo": "110068",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fiol Sebastian",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Anitori, Rafael Dario",
+    "legajo": "110085",
+    "email": "anitori@taranto.com.ar",
+    "cargo": "Auditor GICASH",
+    "area": "GICASH",
+    "manager_nombre": "Illanez, Eduardo Javier",
+    "manager_legajo": "512307",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Gonzalez, Cristian Ruben",
+    "legajo": "110088",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Perez, Rogelio Carlos",
+    "legajo": "110090",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gonzalez, Ariel Fabio",
+    "legajo": "110096",
+    "email": "",
+    "cargo": "Gestión de Operaciones México",
+    "area": "General",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Chaves Lopez, Eduardo Alfredo",
+    "legajo": "110099",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Martin, Marcelo Alfonso",
+    "legajo": "110104",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Sirerol, Gustavo Ariel",
+    "legajo": "110109",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Almeida, Nelson Heriberto",
+    "legajo": "110118",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Moreno, Omar Alejandro",
+    "legajo": "110127",
+    "email": "",
+    "cargo": "Analista COMEX",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Rodriguez, Marcelo Felix",
+    "legajo": "110128",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fiol Sebastian",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Cuevas, Jose Luis",
+    "legajo": "110149",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Moncho, Alejandro Roman",
+    "legajo": "110157",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Rosas, Gustavo Daniel",
+    "legajo": "110182",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Guardia, Adrian Hugo",
+    "legajo": "110204",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Ginestar, Adrian Jesus",
+    "legajo": "110232",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fiol Sebastian",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Fluixa Ripoll, Jaime Leonardo",
+    "legajo": "110249",
+    "email": "fluixal@taranto.com.ar",
+    "cargo": "Auditor GICASH",
+    "area": "Div. Suspensión y Dirección",
+    "manager_nombre": "D'Asta Fabiola",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Alarrivera, Francisco Javier",
+    "legajo": "110258",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Mereles, Rolando Hector",
+    "legajo": "110314",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Nestor Horacio",
+    "manager_legajo": "110042",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aguero, Miguel Angel",
+    "legajo": "110330",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Herrera, Ricardo Andres",
+    "legajo": "110334",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gonzalez, Omar Alejandro",
+    "legajo": "110360",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bumjeil Alfonso",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Fernandez, Enrique Mario",
+    "legajo": "110369",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Mercado, Javier Andres",
+    "legajo": "110383",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Salina, Juan Fernando",
+    "legajo": "110404",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Paez Charra, Sergio Daniel",
+    "legajo": "110407",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Chaves, Marcos Antonio",
+    "legajo": "110438",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Granado, Gerardo Alberto",
+    "legajo": "110446",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Garcia, Alberto Sebastian",
+    "legajo": "110456",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aguero, Fernando Ariel",
+    "legajo": "110464",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aragon, Mauricio Javier",
+    "legajo": "110469",
+    "email": "aragonm@taranto.com.ar",
+    "cargo": "Líder turno",
+    "area": "Div. Suspensión y Dirección",
+    "manager_nombre": "Fiol Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Pelayes, Claudio Javier",
+    "legajo": "110589",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Diaz, Raul Argentino",
+    "legajo": "110606",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Chicahuala, Emiliano Gaston",
+    "legajo": "110619",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Manrique, Marcelo Daniel",
+    "legajo": "110633",
+    "email": "",
+    "cargo": "Referente de Mantenimiento UTV",
+    "area": "Mantenimiento/Mecatrónica",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Andrada Tello, Jorge Washington",
+    "legajo": "110634",
+    "email": "andradaj@taranto.com.ar",
+    "cargo": "Líder stock",
+    "area": "Producción Sellado",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Martinez, Federico Gaston",
+    "legajo": "110648",
+    "email": "martinezf@taranto.com.ar",
+    "cargo": "Asistente Logística",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Acosta, Pablo Gaston",
+    "legajo": "110670",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Wawro, Hugo Alejandro",
+    "legajo": "110677",
+    "email": "wawro@taranto.com.ar",
+    "cargo": "Analista PCP UTIV",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Gomez Roldan, Pablo Enrique",
+    "legajo": "110679",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Micheletti, Mario Andres",
+    "legajo": "110703",
+    "email": "micheletti@taranto.com.ar",
+    "cargo": "Auditor GICASH",
+    "area": "GICASH",
+    "manager_nombre": "Illanez, Eduardo Javier",
+    "manager_legajo": "512307",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Dias, Jose Luis",
+    "legajo": "110710",
+    "email": "",
+    "cargo": "Líder Mantenimiento UTI - UTII",
+    "area": "Mantenimiento/Mecatrónica",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Varas, Oscar Gerardo",
+    "legajo": "110712",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Nestor Horacio",
+    "manager_legajo": "110042",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Luna, Matias Norberto",
+    "legajo": "110758",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Dias Jose Luis",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aguirre, Vicente Javier",
+    "legajo": "110774",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Bernardello, Mario Alberto",
+    "legajo": "110804",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vera, Raul Omar",
+    "legajo": "110832",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Villarreal, Hector Daniel",
+    "legajo": "110849",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Caballero, Maria Cecilia",
+    "legajo": "110881",
+    "email": "ccaballero@taranto.com.ar",
+    "cargo": "Gerente Capital Humano",
+    "area": "Capital Humano",
+    "manager_nombre": "Taranto Cintia",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Contreras, Roberto Abel",
+    "legajo": "110890",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Fiol, Jaime Sebastian",
+    "legajo": "110900",
+    "email": "fiol@taranto.com.ar",
+    "cargo": "Líder planta / Responsable División Caja de Dirección, Suspensión y Fricción",
+    "area": "General/Div. Suspensión",
+    "manager_nombre": "Cane, Alejandro Raul",
+    "manager_legajo": "110195",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Maldonado, Sergio Sebastian",
+    "legajo": "110905",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Videla, Luis Cesar",
+    "legajo": "110922",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aguero, Roque David",
+    "legajo": "110929",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Sanchez, Mario Alberto",
+    "legajo": "110933",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Reta, Jose Omar",
+    "legajo": "110936",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aballay Cabanay, Maximiliano Ariel",
+    "legajo": "110945",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Furlani, Noelia Del Valle",
+    "legajo": "110948",
+    "email": "furlani@taranto.com.ar",
+    "cargo": "Líder Administración",
+    "area": "Administración",
+    "manager_nombre": "Smichowski Jose Luis",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Perez, Carlos William",
+    "legajo": "110954",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gomez Aldalla, Victor Miguel",
+    "legajo": "110969",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Dias, Antonio Hernan",
+    "legajo": "110971",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Correa, Sebastian Ignacio",
+    "legajo": "110987",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fiol Sebastian",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Croco, Martin Emanuel",
+    "legajo": "110989",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Torres, Luis Nicolas",
+    "legajo": "110994",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Castro, Juan Carlos",
+    "legajo": "110998",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Bustos Pelayes, Edgar Leonardo",
+    "legajo": "110999",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Ortiz Diaz, Hugo",
+    "legajo": "111012",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Correa Torres, Matias Ezequiel",
+    "legajo": "510418",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Frias, Victor Daniel",
+    "legajo": "510419",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Salinas, Jorge David",
+    "legajo": "510423",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aguero, Gaston Facundo",
+    "legajo": "510429",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Calivar Alameda, Pedro Jesus",
+    "legajo": "510437",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Navarro, Juan Pablo",
+    "legajo": "510455",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Dias Jose Luis",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Zalazar, William Enrique",
+    "legajo": "510456",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gomez Fernandez, Sergio D",
+    "legajo": "510477",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Flores Guzman, Lucas Sebastian",
+    "legajo": "510506",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Dias Jose Luis",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Lucero, Cristian Adrian",
+    "legajo": "510508",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Chena, Marcos Omar",
+    "manager_legajo": "110018",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Correa, Marcelo Alejandro",
+    "legajo": "510572",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Dias Jose Luis",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Flores, Jorge Gonzalo",
+    "legajo": "510577",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Malla, Jorge Joaquin",
+    "legajo": "510578",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Sanchez, Cintia Valeria",
+    "legajo": "510605",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gil Alvea, Maria Marcela",
+    "legajo": "511268",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Caballero Cecilia",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Suarez, Nicolas Jesus",
+    "legajo": "511333",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Fernandez, Ricardo Javier",
+    "legajo": "511499",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Nu�Ez, Alejandro",
+    "legajo": "511547",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Chena, Marcos Omar",
+    "manager_legajo": "110018",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Cordoba Maldonado, Nelson David",
+    "legajo": "511549",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Barrera Castro, Neri Miguel",
+    "legajo": "511556",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Almiron, Juan Ismael",
+    "legajo": "511613",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Escudero, Adrian Eduardo",
+    "legajo": "511628",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Nestor Horacio",
+    "manager_legajo": "110042",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Jofre, Gonzalo",
+    "legajo": "512187",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Brochero, Walter Hector Javier",
+    "legajo": "512234",
+    "email": "brochero@taranto.com.ar",
+    "cargo": "Ingeniero de Procesos",
+    "area": "Ingeniería",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Rosales, Fernando Gabriel",
+    "legajo": "512365",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Alcanis, Jael Solange",
+    "legajo": "512521",
+    "email": "alcanis@taranto.com.ar",
+    "cargo": "Analista CH",
+    "area": "Capital Humano",
+    "manager_nombre": "Caballero Cecilia",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Correa, Noelia Yanina",
+    "legajo": "512629",
+    "email": "correan@taranto.com.ar",
+    "cargo": "Asistente Tesorería",
+    "area": "Administración",
+    "manager_nombre": "Furlani, Noelia Del Valle",
+    "manager_legajo": "110948",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Chiffel, Claudio Federico",
+    "legajo": "512664",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Lopez, Matias Andres",
+    "legajo": "513098",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Bustos Castro, Juan Carlos",
+    "legajo": "513247",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Heredia, Leonardo Miguel",
+    "legajo": "513346",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Rodriguez Lopez, Juan Manuel",
+    "legajo": "513494",
+    "email": "rodriguezjm@taranto.com.ar",
+    "cargo": "Responsable administración personal",
+    "area": "Capital Humano",
+    "manager_nombre": "Caballero Cecilia",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Ariza, Hugo Daniel",
+    "legajo": "513939",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Castro, Juan Manuel",
+    "legajo": "513942",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Formano, Ricardo Ariel",
+    "legajo": "513960",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Guardia, Raul Antonio",
+    "legajo": "513980",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Perez, Maribel Andrea",
+    "legajo": "514161",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aranciva, Silvana Valeria",
+    "legajo": "514189",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Nestor Horacio",
+    "manager_legajo": "110042",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Barroso Luna, Viviana Deolinda",
+    "legajo": "514190",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Andrada Tello, Jorge Washington",
+    "manager_legajo": "110634",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Garcia Suesa, Nahuel Emiliano",
+    "legajo": "514206",
+    "email": "garciae@taranto.com.ar",
+    "cargo": "Asistente PCP",
+    "area": "Abastecimiento y Planificación",
+    "manager_nombre": "Gutierrez Sebastian",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Veron, Pablo Damian",
+    "legajo": "514243",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fiol Sebastian",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Bustos Matamora, Patricio Felipe",
+    "legajo": "514252",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Delgado, Fabian Gerardo",
+    "legajo": "514285",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Andrada Tello, Jorge Washington",
+    "manager_legajo": "110634",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Castro, Javier Ivan",
+    "legajo": "514286",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vargas, Alejandro Antonio",
+    "legajo": "514288",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Andrada Tello, Jorge Washington",
+    "manager_legajo": "110634",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Alejos, Marcelo David",
+    "legajo": "514291",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Andrada Tello, Jorge Washington",
+    "manager_legajo": "110634",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Ruarte, Carlos Alberto",
+    "legajo": "514295",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aballay Gerone, Jairo De Jesus",
+    "legajo": "514307",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Hernandez Rodriguez, Walter Guillermo",
+    "legajo": "514316",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gimenez, Juan Jose",
+    "legajo": "514318",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gonzalez Ojeda, Rodrigo Esequiel",
+    "legajo": "514319",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Galleguillo Ochoa, Luis Ignacio",
+    "legajo": "514346",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Vera Fernandez, Juan Esequiel",
+    "legajo": "514353",
+    "email": "veraj@taranto.com.ar",
+    "cargo": "Asistente Ingeniería",
+    "area": "Ingeniería",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Silva Salcedo, Julio Cesar",
+    "legajo": "514389",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Rodriguez Picon, Daniel Fernando",
+    "legajo": "514397",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Balmaceda, Fernando Daniel",
+    "legajo": "514419",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Diaz Guerra, Roberto Gerardo",
+    "legajo": "514434",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Maldonado, Sergio Matias",
+    "legajo": "514448",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Aguilera, Jon Franco",
+    "legajo": "514461",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Maldonado, Lucas",
+    "legajo": "514514",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Olivares, Jorge German",
+    "legajo": "514518",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Ramo, Lucas Ricardo",
+    "legajo": "514527",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Bustos Lara, Jorge Andres",
+    "manager_legajo": "110010",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Corroza, Matias Maximiliano",
+    "legajo": "514535",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Guardia, Marcos Daniel",
+    "legajo": "514545",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Andrada Tello, Jorge Washington",
+    "manager_legajo": "110634",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Cumpian Baca, Rodolfo Alejandro",
+    "legajo": "514585",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Jofre, Leonel De Jesus",
+    "legajo": "514606",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Castro Gonzalez, Miguel Alejandro",
+    "legajo": "514628",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Molina, Angel Josue",
+    "legajo": "514634",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Guillen, Lucas Oscar",
+    "legajo": "514641",
+    "email": "guillen@taranto.com.ar",
+    "cargo": "Analista Ingeniería",
+    "area": "Div. Suspensión y Dirección",
+    "manager_nombre": "Ranea Vera, Mauricio",
+    "manager_legajo": "110460",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Gamboa, Miguel Alejandro",
+    "legajo": "514645",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "De Los Santos Sergio",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Castro Paez, Gonzalo Alejandro",
+    "legajo": "514652",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Cortez Aguero, Alexander Abel",
+    "legajo": "514655",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Lopez Jofre, Fernando Ariel",
+    "legajo": "514664",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Jofre, Gonzalo",
+    "manager_legajo": "512187",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Navarro, Braian Alejandro",
+    "legajo": "514673",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Perez, Rogelio Carlos",
+    "manager_legajo": "110090",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Gomez Caceres, Pedro Fernando",
+    "legajo": "514709",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Avenda�O Daniel",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Sanchez Malgioglio, Valentina Noe",
+    "legajo": "514766",
+    "email": "sanchezv@taranto.com.ar",
+    "cargo": "Asistente administrativa",
+    "area": "Administración",
+    "manager_nombre": "Furlani, Noelia Del Valle",
+    "manager_legajo": "110948",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Ozan, Emanuel Osvaldo",
+    "legajo": "514781",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Vargas, Ricardo Ramon",
+    "manager_legajo": "110012",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Donoso Silva, Cristian Javier",
+    "legajo": "514787",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Dias Jose Luis",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Turchetti Castro, Cecilia Giovana",
+    "legajo": "514792",
+    "email": "turchetti@taranto.com.ar",
+    "cargo": "Analista Mecatrónica",
+    "area": "Mantenimiento/Mecatrónica",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Gomez Lescano, Enzo Gustavo",
+    "legajo": "514796",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Mu�Oz Ponce, Guillermo Vicente",
+    "legajo": "514908",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Correa Pose, Matias Emanuel",
+    "legajo": "514911",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Chena, Marcos Omar",
+    "manager_legajo": "110018",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Rivero Echegaray, Eduardo Luis",
+    "legajo": "514919",
+    "email": "riveroe@taranto.com.ar",
+    "cargo": "Analista Mecatrónica",
+    "area": "Mantenimiento/Mecatrónica",
+    "manager_nombre": "Fabregas Ester",
+    "manager_legajo": "",
+    "fuente": "excel_oficial+reporta_a"
+  },
+  {
+    "nombre": "Yacanto, Eraldo  Gaston",
+    "legajo": "514929",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Paez Charra, Sergio Daniel",
+    "manager_legajo": "110407",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Sosa, Delia Noemi",
+    "legajo": "514930",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Carrizo, Vanesa Giselle",
+    "legajo": "514938",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Arrieta Leiva, Nahuel Agustin",
+    "legajo": "514939",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Leal, Yanina Barbara",
+    "legajo": "514940",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Diaz, Lidia Pilar",
+    "legajo": "514941",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  },
+  {
+    "nombre": "Pantano, Cristina Del Valle",
+    "legajo": "514951",
+    "email": "",
+    "cargo": "",
+    "area": "",
+    "manager_nombre": "Ag�Ero Jorge",
+    "manager_legajo": "",
+    "fuente": "reporta_a"
+  }
+]

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Organigrama - Vista Local</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #1b1b1b; }
+    .topbar { background: #102a43; color: #fff; padding: 16px 24px; display: flex; align-items: center; gap: 16px; }
+    .topbar h1 { font-size: 20px; }
+    .topbar button { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25); color: #fff; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+    .topbar button.active { background: #243b53; }
+    main { max-width: 1200px; margin: 24px auto; padding: 0 20px; }
+    .stats { display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+    .stat-card { background: #fff; border-radius: 10px; padding: 16px 24px; box-shadow: 0 1px 4px rgba(0,0,0,.08); flex: 1; min-width: 160px; }
+    .stat-card .num { font-size: 28px; font-weight: 700; color: #0b69a3; }
+    .stat-card .label { font-size: 13px; color: #627d98; margin-top: 4px; }
+    .search-bar { margin-bottom: 16px; display: flex; gap: 10px; }
+    .search-bar input, .search-bar select { padding: 10px; border: 1px solid #cbd2d9; border-radius: 8px; font-size: 14px; }
+    .search-bar input { flex: 1; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    th, td { padding: 10px 12px; text-align: left; font-size: 13px; border-bottom: 1px solid #e4e7eb; }
+    th { background: #f0f4f8; font-weight: 600; color: #334e68; position: sticky; top: 0; }
+    tr:hover td { background: #f7fafc; }
+    .tree-container { background: #fff; border-radius: 8px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    .tree-node { margin-left: 24px; padding: 6px 0; }
+    .tree-node-card { display: inline-flex; align-items: center; gap: 10px; padding: 8px 14px; border: 1px solid #d9e2ec; border-radius: 8px; cursor: pointer; transition: all .15s; }
+    .tree-node-card:hover { background: #e3f0ff; border-color: #0b69a3; }
+    .tree-node-card .name { font-weight: 600; color: #102a43; }
+    .tree-node-card .detail { font-size: 12px; color: #627d98; }
+    .tree-root { margin-left: 0; }
+    .hidden { display: none; }
+    #loading { text-align: center; padding: 40px; color: #627d98; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <h1>📊 Organigrama</h1>
+    <button id="btn-dir" class="active" onclick="showTab('directorio')">Directorio</button>
+    <button id="btn-tree" onclick="showTab('arbol')">Árbol</button>
+  </div>
+
+  <main>
+    <div id="loading">Cargando datos...</div>
+
+    <!-- DIRECTORIO -->
+    <div id="tab-directorio" class="hidden">
+      <div class="stats">
+        <div class="stat-card"><div class="num" id="total-emp">0</div><div class="label">Empleados</div></div>
+        <div class="stat-card"><div class="num" id="total-areas">0</div><div class="label">Áreas</div></div>
+        <div class="stat-card"><div class="num" id="total-conmgr">0</div><div class="label">Con manager</div></div>
+      </div>
+      <div class="search-bar">
+        <input id="search" type="search" placeholder="Buscar por nombre, email, cargo..." oninput="filterTable()" />
+        <select id="filter-area" onchange="filterTable()"><option value="">Todas las áreas</option></select>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Nombre</th><th>Legajo</th><th>Email</th><th>Cargo</th><th>Área</th><th>Reporta a</th></tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- ARBOL -->
+    <div id="tab-arbol" class="hidden">
+      <div class="search-bar">
+        <input id="search-tree" type="search" placeholder="Buscar persona en el árbol..." oninput="filterTree()" />
+      </div>
+      <div class="tree-container" id="tree-root"></div>
+    </div>
+  </main>
+
+  <script>
+    let DATA = [];
+
+    async function init() {
+      const resp = await fetch("data_local.json");
+      DATA = await resp.json();
+
+      document.getElementById("total-emp").textContent = DATA.length;
+      const areas = [...new Set(DATA.map(d => d.area).filter(Boolean))].sort();
+      document.getElementById("total-areas").textContent = areas.length;
+      document.getElementById("total-conmgr").textContent = DATA.filter(d => d.manager_nombre).length;
+
+      const sel = document.getElementById("filter-area");
+      areas.forEach(a => { const o = document.createElement("option"); o.value = a; o.textContent = a; sel.appendChild(o); });
+
+      document.getElementById("loading").classList.add("hidden");
+      showTab("directorio");
+    }
+
+    function showTab(tab) {
+      document.getElementById("tab-directorio").classList.toggle("hidden", tab !== "directorio");
+      document.getElementById("tab-arbol").classList.toggle("hidden", tab !== "arbol");
+      document.getElementById("btn-dir").classList.toggle("active", tab === "directorio");
+      document.getElementById("btn-tree").classList.toggle("active", tab === "arbol");
+      if (tab === "directorio") renderTable(DATA);
+      if (tab === "arbol") renderTree();
+    }
+
+    function renderTable(rows) {
+      const tbody = document.getElementById("tbody");
+      tbody.innerHTML = rows.map(r =>
+        `<tr>
+          <td>${r.nombre}</td>
+          <td>${r.legajo || "-"}</td>
+          <td>${r.email || "-"}</td>
+          <td>${r.cargo || "-"}</td>
+          <td>${r.area || "-"}</td>
+          <td>${r.manager_nombre || "-"}</td>
+        </tr>`
+      ).join("");
+    }
+
+    function filterTable() {
+      const q = document.getElementById("search").value.toLowerCase();
+      const area = document.getElementById("filter-area").value;
+      const filtered = DATA.filter(r => {
+        if (area && r.area !== area) return false;
+        if (!q) return true;
+        return [r.nombre, r.email, r.cargo, r.legajo].some(v => (v || "").toLowerCase().includes(q));
+      });
+      renderTable(filtered);
+    }
+
+    function buildTree() {
+      const byLegajo = {};
+      DATA.forEach(d => { byLegajo[d.legajo] = { ...d, children: [] }; });
+
+      const roots = [];
+      Object.values(byLegajo).forEach(node => {
+        const parentLeg = node.manager_legajo;
+        if (parentLeg && byLegajo[parentLeg]) {
+          byLegajo[parentLeg].children.push(node);
+        } else {
+          roots.push(node);
+        }
+      });
+      return roots;
+    }
+
+    function renderTreeNode(node, depth = 0) {
+      const cls = depth === 0 ? "tree-node tree-root" : "tree-node";
+      let html = `<div class="${cls}">
+        <div class="tree-node-card">
+          <div>
+            <div class="name">${node.nombre}</div>
+            <div class="detail">${node.cargo || "Sin cargo"} · ${node.area || "Sin área"}</div>
+          </div>
+        </div>`;
+      if (node.children.length) {
+        node.children.sort((a, b) => a.nombre.localeCompare(b.nombre));
+        html += node.children.map(c => renderTreeNode(c, depth + 1)).join("");
+      }
+      html += "</div>";
+      return html;
+    }
+
+    function renderTree() {
+      const roots = buildTree();
+      roots.sort((a, b) => a.nombre.localeCompare(b.nombre));
+      document.getElementById("tree-root").innerHTML = roots.map(r => renderTreeNode(r)).join("");
+    }
+
+    function filterTree() {
+      const q = document.getElementById("search-tree").value.toLowerCase();
+      const cards = document.querySelectorAll(".tree-node-card");
+      cards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        card.style.opacity = !q || text.includes(q) ? "1" : "0.2";
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>
