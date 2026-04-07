@@ -2,12 +2,16 @@ import { useEffect, useState } from "react";
 import { searchEmployees } from "../lib/api";
 import type { EmployeeDirectoryRow } from "../types/orgchart";
 import { ConfidenceBadge } from "../components/ConfidenceBadge";
+import { EmployeeEditor } from "../components/EmployeeEditor";
+import { FiEdit2 } from "react-icons/fi";
+import type { OrgNode } from "../types/orgchart";
 
 export function DirectoryPage() {
   const [query, setQuery] = useState("");
   const [rows, setRows] = useState<EmployeeDirectoryRow[]>([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [selectedForEdit, setSelectedForEdit] = useState<OrgNode | null>(null);
 
   async function load() {
     setLoading(true);
@@ -26,7 +30,7 @@ export function DirectoryPage() {
   }, []);
 
   return (
-    <section>
+    <section className="content-section">
       <h2>Directorio</h2>
       <div className="panel">
         <input
@@ -48,9 +52,10 @@ export function DirectoryPage() {
             <th>Email</th>
             <th>Cargo</th>
             <th>Área</th>
+            <th>División</th>
             <th>Reporta a</th>
             <th>Confianza</th>
-            <th>Fuente</th>
+            <th>Acciones</th>
           </tr>
         </thead>
         <tbody>
@@ -60,15 +65,40 @@ export function DirectoryPage() {
               <td>{r.email ?? "-"}</td>
               <td>{r.cargo ?? "-"}</td>
               <td>{r.area ?? "-"}</td>
+              <td>{r.division ?? "-"}</td>
               <td>{r.manager_name ?? "-"}</td>
               <td>
                 <ConfidenceBadge confidence={r.confidence} />
               </td>
-              <td>{r.source ?? "-"}</td>
+              <td>
+                <button 
+                  className="icon-btn" 
+                  onClick={() => setSelectedForEdit({
+                    employee_id: r.id,
+                    nombre: r.nombre,
+                    email: r.email,
+                    cargo: r.cargo,
+                    area: r.area,
+                    division: r.division,
+                    manager_id: r.manager_id,
+                    level: 0,
+                    confidence: r.confidence,
+                    source: r.source
+                  })}
+                >
+                  <FiEdit2 size={16} />
+                </button>
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
+
+      <EmployeeEditor 
+        employee={selectedForEdit}
+        onClose={() => setSelectedForEdit(null)}
+        onSave={() => void load()}
+      />
     </section>
   );
 }

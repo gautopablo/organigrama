@@ -1,4 +1,5 @@
-import { useMemo, useCallback } from "react";
+import * as dagre from "dagre";
+import { useMemo } from "react";
 import {
   ReactFlow,
   MiniMap,
@@ -78,57 +79,82 @@ interface Props {
   onEditEmployee?: (employee: OrgNode) => void;
 }
 
+const nodeWidth = 250;
+const nodeHeight = 150;
+
+/**
+ * Dagre layout engine helper
+ */
+const getLayoutedElements = (nodes: Node[], edges: Edge[]) => {
+  const dagreGraph = new dagre.graphlib.Graph();
+  dagreGraph.setDefaultEdgeLabel(() => ({}));
+  
+  dagreGraph.setGraph({ 
+    rankdir: 'TB', 
+    nodesep: 150, // Más espacio horizontal
+    ranksep: 200  // Más espacio vertical
+  });
+
+  nodes.forEach((node) => {
+    dagreGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
+  });
+
+  edges.forEach((edge) => {
+    dagreGraph.setEdge(edge.source, edge.target);
+  });
+
+  dagre.layout(dagreGraph);
+
+  const newNodes = nodes.map((node) => {
+    const nodeWithPosition = dagreGraph.node(node.id);
+    return {
+      ...node,
+      position: {
+        x: nodeWithPosition.x - nodeWidth / 2,
+        y: nodeWithPosition.y - nodeHeight / 2,
+      },
+    };
+  });
+
+  return { nodes: newNodes, edges };
+};
+
 export function OrgFlow({ nodes, onSelectEmployee, onEditEmployee }: Props) {
-  const { flowNodes, flowEdges } = useMemo(() => {
-    if (!nodes || nodes.length === 0) return { flowNodes: [], flowEdges: [] };
+  const layouted = useMemo(() => {
+    if (!nodes || nodes.length === 0) return { nodes: [], edges: [] };
 
-    const levels = Array.from(new Set(nodes.map((n) => n.level))).sort((a, b) => a - b);
-    const nodesByLevel: Record<number, OrgNode[]> = {};
-    levels.forEach((l) => (nodesByLevel[l] = nodes.filter((n) => n.level === l)));
+    const rawNodes: Node[] = nodes.map((n) => ({
+      id: n.employee_id,
+      type: 'employee',
+      position: { x: 0, y: 0 },
+      data: { 
+        label: n.nombre, 
+        cargo: n.cargo, 
+        area: n.area, 
+        email: n.email,
+        onSelect: () => onSelectEmployee?.(n.employee_id),
+        onEdit: () => onEditEmployee?.(n)
+      },
+    }));
 
-    const newNodes: Node[] = [];
-    const newEdges: Edge[] = [];
-
-    // Ajustes de espaciado
-    const HORIZONTAL_GAP = 350;
-    const VERTICAL_GAP = 280;
-
+    const rawEdges: Edge[] = [];
     nodes.forEach((n) => {
-      // Calcular posición centrada por nivel
-      const levelNodes = nodesByLevel[n.level];
-      const indexInLevel = levelNodes.indexOf(n);
-      const levelWidth = (levelNodes.length - 1) * HORIZONTAL_GAP;
-      const x = indexInLevel * HORIZONTAL_GAP - levelWidth / 2;
-      const y = n.level * VERTICAL_GAP;
-
-      newNodes.push({
-        id: n.employee_id,
-        type: 'employee',
-        position: { x, y },
-        data: { 
-          label: n.nombre, 
-          cargo: n.cargo, 
-          area: n.area, 
-          email: n.email,
-          onSelect: () => onSelectEmployee?.(n.employee_id),
-          onEdit: () => onEditEmployee?.(n)
-        },
-      });
-
       if (n.manager_id && nodes.some(m => m.employee_id === n.manager_id)) {
-        newEdges.push({
+        rawEdges.push({
           id: `e-${n.manager_id}-${n.employee_id}`,
           source: n.manager_id,
           target: n.employee_id,
           type: 'smoothstep',
-          animated: false,
-          style: { stroke: '#cbd5e1', strokeWidth: 2 },
+          style: { stroke: '#94a3b8', strokeWidth: 2 },
         });
       }
     });
 
-    return { flowNodes: newNodes, flowEdges: newEdges };
-  }, [nodes, onSelectEmployee]);
+    return getLayoutedElements(rawNodes, rawEdges);
+  }, [nodes, onSelectEmployee, onEditEmployee]);
+
+  const flowNodes = layouted.nodes;
+  const flowEdges = layouted.edges;
 
   if (!nodes || nodes.length === 0) {
     return (

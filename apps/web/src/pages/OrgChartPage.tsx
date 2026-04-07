@@ -14,6 +14,7 @@ export function OrgChartPage() {
   const [error, setError] = useState<string>("");
   const [viewMode, setViewMode] = useState<'flow' | 'classic'>('flow');
   const [selectedEmployeeForEdit, setSelectedEmployeeForEdit] = useState<OrgNode | null>(null);
+  const [hideOrphans, setHideOrphans] = useState(false);
 
   const employeeOptions = useMemo(() => 
     allEmployees.map(e => ({
@@ -22,6 +23,17 @@ export function OrgChartPage() {
     })).sort((a, b) => a.label.localeCompare(b.label)),
     [allEmployees]
   );
+
+  const filteredNodes = useMemo(() => {
+    if (!hideOrphans) return nodes;
+
+    // Un suelto es alguien sin manager Y que no es manager de nadie más
+    return nodes.filter(node => {
+      const hasManager = !!node.manager_id;
+      const isManager = nodes.some(n => n.manager_id === node.employee_id);
+      return hasManager || isManager;
+    });
+  }, [nodes, hideOrphans]);
 
   async function loadData() {
     try {
@@ -47,8 +59,8 @@ export function OrgChartPage() {
   useEffect(() => { void loadChart(); }, [rootId]);
 
   return (
-    <div className="app-shell" style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <header className="topbar">
+    <div className="page-container chart-view">
+      <div className="controls-bar sticky-sub">
         <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
           <h1>ORGANIGRAMA TARANTO</h1>
           
@@ -66,6 +78,24 @@ export function OrgChartPage() {
               <FiGrid size={14} /> Clásico
             </button>
           </div>
+
+          <label style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            gap: '0.5rem', 
+            fontSize: '0.8rem', 
+            color: 'rgba(255,255,255,0.7)',
+            cursor: 'pointer',
+            userSelect: 'none'
+          }}>
+            <input 
+              type="checkbox" 
+              checked={hideOrphans} 
+              onChange={(e) => setHideOrphans(e.target.checked)}
+              style={{ width: 'auto' }}
+            />
+            Ocultar sueltos
+          </label>
         </div>
 
         <div style={{ width: '400px' }}>
@@ -88,9 +118,9 @@ export function OrgChartPage() {
             ))}
           </select>
         </div>
-      </header>
+      </div>
 
-      <main style={{ flex: 1, overflow: 'auto', background: viewMode === 'classic' ? '#f8fafc' : 'white' }}>
+      <main className="chart-main" style={{ background: viewMode === 'classic' ? '#f8fafc' : 'white' }}>
         {error && <div className="error">{error}</div>}
         
         {loading ? (
@@ -102,26 +132,26 @@ export function OrgChartPage() {
           <>
             {viewMode === 'flow' ? (
               <OrgFlow 
-                nodes={nodes} 
+                nodes={filteredNodes} 
                 onSelectEmployee={(id) => setRootId(id)} 
                 onEditEmployee={(emp) => setSelectedEmployeeForEdit(emp)}
               />
             ) : (
               <OrgClassic 
-                nodes={nodes} 
+                nodes={filteredNodes} 
                 onSelectEmployee={(id) => setRootId(id)} 
                 onEditEmployee={(emp) => setSelectedEmployeeForEdit(emp)}
               />
             )}
           </>
         )}
-
-        <EmployeeEditor 
-          employee={selectedEmployeeForEdit}
-          onClose={() => setSelectedEmployeeForEdit(null)}
-          onSave={loadChart}
-        />
       </main>
+
+      <EmployeeEditor 
+        employee={selectedEmployeeForEdit}
+        onClose={() => setSelectedEmployeeForEdit(null)}
+        onSave={() => void loadChart()}
+      />
     </div>
   );
 }

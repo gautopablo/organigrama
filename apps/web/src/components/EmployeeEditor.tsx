@@ -14,6 +14,7 @@ export function EmployeeEditor({ employee, onClose, onSave }: Props) {
     nombre: "",
     cargo: "",
     area: "",
+    division: "",
     email: "",
     manager_id: ""
   });
@@ -27,6 +28,7 @@ export function EmployeeEditor({ employee, onClose, onSave }: Props) {
         nombre: employee.nombre,
         cargo: employee.cargo || "",
         area: employee.area || "",
+        division: employee.division || "",
         email: employee.email || "",
         manager_id: employee.manager_id || ""
       });
@@ -64,6 +66,7 @@ export function EmployeeEditor({ employee, onClose, onSave }: Props) {
           nombre: formData.nombre,
           cargo: formData.cargo,
           area: formData.area,
+          division: formData.division,
           email: formData.email
         })
         .eq("id", currentEmployeeId);
@@ -145,6 +148,16 @@ export function EmployeeEditor({ employee, onClose, onSave }: Props) {
             type="text"
             value={formData.area}
             onChange={(e) => setFormData({ ...formData, area: e.target.value })}
+          />
+        </div>
+
+        <div className="form-group">
+          <label>División</label>
+          <input
+            type="text"
+            value={formData.division}
+            onChange={(e) => setFormData({ ...formData, division: e.target.value })}
+            placeholder="Ej: Planta San Juan, Administración..."
           />
         </div>
 

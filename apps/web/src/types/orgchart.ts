@@ -5,6 +5,7 @@ export type OrgNode = {
   email: string | null;
   cargo: string | null;
   area: string | null;
+  division: string | null;
   level: number;
   confidence: "AUTO_OK" | "REVIEW_REQUIRED";
   source: string | null;
@@ -17,7 +18,9 @@ export type EmployeeDirectoryRow = {
   email: string | null;
   cargo: string | null;
   area: string | null;
+  division: string | null;
   estado: string;
+  manager_id: string | null;
   manager_name: string | null;
   confidence: "AUTO_OK" | "REVIEW_REQUIRED";
   source: string | null;
