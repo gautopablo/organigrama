@@ -9,6 +9,10 @@
     "dev:web": "npm run dev --workspace apps/web",
     "build:web": "npm run build --workspace apps/web",
     "lint:web": "npm run lint --workspace apps/web",
+    "doctor:supabase": "tsx scripts/doctor_supabase.ts",
+    "db:migrate": "npx supabase db push",
+    "db:migrate:localfile": "tsx scripts/run_migration_sql.ts",
+    "import:info": "tsx scripts/import_from_info.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test"

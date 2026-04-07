@@ -6,7 +6,8 @@ const navItems = [
   { to: "/organigrama", label: "Organigrama" },
   { to: "/directorio", label: "Directorio" },
   { to: "/importacion", label: "Importación" },
-  { to: "/conflictos", label: "Conflictos" }
+  { to: "/conflictos", label: "Conflictos" },
+  { to: "/ayuda", label: "Ayuda" }
 ];
 
 export function AppShell({ children }: PropsWithChildren) {

@@ -93,7 +93,7 @@ Deno.serve(async (req) => {
 
     for (const row of stagingRows) {
       const normalized = row.normalized_fields as Record<string, string | null>;
-      const employeeUpsert = {
+      const employeePayload = {
         nombre: row.raw_payload["Usuario (tabla usuarios)"] ?? row.raw_payload["Usuario (organigrama)"] ?? row.employee_key,
         normalized_name: normalized.nombre,
         email: normalized.email,
@@ -103,12 +103,48 @@ Deno.serve(async (req) => {
         source_batch_id: batchId
       };
 
-      const { data: employeeData, error: employeeError } = await supabase
-        .from("employees")
-        .upsert(employeeUpsert, { onConflict: "email" })
-        .select("id")
-        .single();
-      if (employeeError) throw employeeError;
+      const { data: byLegajo } = normalized.legajo
+        ? await supabase.from("employees").select("id").eq("legajo", normalized.legajo).maybeSingle()
+        : { data: null as { id: string } | null };
+      const { data: byEmail } = normalized.email
+        ? await supabase.from("employees").select("id").eq("email", normalized.email).maybeSingle()
+        : { data: null as { id: string } | null };
+      const { data: byName } = normalized.nombre
+        ? await supabase.from("employees").select("id").eq("normalized_name", normalized.nombre).maybeSingle()
+        : { data: null as { id: string } | null };
+
+      let employeeId: string | null = byLegajo?.id ?? byEmail?.id ?? byName?.id ?? null;
+      const payload = { ...employeePayload };
+
+      if (byLegajo?.id && byEmail?.id && byLegajo.id !== byEmail.id) {
+        await supabase.from("orgchart_conflicts").insert({
+          employee_key: row.employee_key,
+          conflict_type: "EMAIL_LEGAJO_MISMATCH",
+          source_a: "golden",
+          source_b: file.name,
+          details: { legajo_id: byLegajo.id, email_id: byEmail.id, email: normalized.email, legajo: normalized.legajo }
+        });
+        employeeId = byLegajo.id as string;
+        payload.email = null;
+      } else if (byEmail?.id && employeeId && byEmail.id !== employeeId) {
+        payload.email = null;
+      }
+
+      if (employeeId) {
+        const { error: updateError } = await supabase
+          .from("employees")
+          .update(payload)
+          .eq("id", employeeId);
+        if (updateError) throw updateError;
+      } else {
+        const { data: inserted, error: insertError } = await supabase
+          .from("employees")
+          .insert(payload)
+          .select("id")
+          .single();
+        if (insertError) throw insertError;
+        employeeId = inserted.id as string;
+      }
 
       let managerId: string | null = null;
       const managerName = row.raw_payload["Superior (tabla usuarios)"] ?? row.raw_payload["Superior (organigrama)"];
@@ -135,7 +171,7 @@ Deno.serve(async (req) => {
       const { data: existingLine } = await supabase
         .from("reporting_lines")
         .select("id, manager_id")
-        .eq("employee_id", employeeData.id)
+        .eq("employee_id", employeeId)
         .eq("active", true)
         .maybeSingle();
 
@@ -152,7 +188,7 @@ Deno.serve(async (req) => {
 
       if (!existingLine?.id) {
         await supabase.from("reporting_lines").insert({
-          employee_id: employeeData.id,
+          employee_id: employeeId,
           manager_id: managerId,
           source: file.name,
           confidence: normalized.confidence ?? "REVIEW_REQUIRED",

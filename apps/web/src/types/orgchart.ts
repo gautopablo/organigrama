@@ -2,6 +2,7 @@ export type OrgNode = {
   employee_id: string;
   manager_id: string | null;
   nombre: string;
+  email: string | null;
   cargo: string | null;
   area: string | null;
   level: number;

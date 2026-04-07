@@ -7,13 +7,10 @@ import { DirectoryPage } from "./pages/DirectoryPage";
 import { ImportPage } from "./pages/ImportPage";
 import { ConflictsPage } from "./pages/ConflictsPage";
 
+import { HelpPage } from "./pages/HelpPage";
+
 export function App() {
-  const { session, loading } = useAuth();
-
-  if (loading) return <p style={{ padding: 24 }}>Cargando...</p>;
-
-  if (!session) return <LoginPage />;
-
+  // Eliminamos el chequeo de sesión para acceso directo
   return (
     <AppShell>
       <Routes>
@@ -22,6 +19,7 @@ export function App() {
         <Route path="/directorio" element={<DirectoryPage />} />
         <Route path="/importacion" element={<ImportPage />} />
         <Route path="/conflictos" element={<ConflictsPage />} />
+        <Route path="/ayuda" element={<HelpPage />} />
       </Routes>
     </AppShell>
   );

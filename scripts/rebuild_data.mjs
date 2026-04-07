@@ -15,40 +15,65 @@ console.log("CSV reporta a:", rows.length, "filas");
 // Regenero desde el json anterior del excel
 // Pero primero, genero el mapa de legajo desde el CSV que es la fuente principal
 
-// Clave corta: primer apellido + primer nombre (así funciona "Reporta A")
-function shortKey(apellido, nombre) {
-  const a = (apellido || "").split(/\s+/)[0].toLowerCase();
-  const n = (nombre || "").split(/\s+/)[0].toLowerCase();
-  return `${a} ${n}`;
+// --- Helpers de Normalización ---
+function normalize(s) {
+  return (s || "").toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // quitar acentos
+    .replace(/[^a-z0-9\s]/g, " ") // solo letras y números
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function titleCase(s) {
   return (s || "").toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
 }
 
-// Mapa: clave_corta -> legajo
-const shortKeyToLegajo = new Map();
+// Mapa: clave_normalizada -> legajo
+// Vamos a indexar por varias combinaciones para que el match sea robusto
+const nameToLegajo = new Map();
 const legajoToRow = new Map();
 
 for (const r of rows) {
-  const key = shortKey(r.apellido, r.nombre);
-  shortKeyToLegajo.set(key, r.legajo);
+  const ape = normalize(r.apellido);
+  const nom = normalize(r.nombre);
+  const nomParts = nom.split(" ");
+  const apeParts = ape.split(" ");
+
+  // Claves posibles:
+  // 1. "apellido nombre1"
+  nameToLegajo.set(`${apeParts[0]} ${nomParts[0]}`, r.legajo);
+  // 2. "apellido nombre2" (si existe)
+  if (nomParts[1]) nameToLegajo.set(`${apeParts[0]} ${nomParts[1]}`, r.legajo);
+  // 3. "apellido completo nombre completo"
+  nameToLegajo.set(`${ape} ${nom}`, r.legajo);
+  // 4. "nombre completo apellido completo" (a veces viene invertido)
+  nameToLegajo.set(`${nom} ${ape}`, r.legajo);
+  
   legajoToRow.set(r.legajo, r);
 }
 
-console.log("Claves cortas únicas:", shortKeyToLegajo.size);
+console.log("Índice de nombres construido con", nameToLegajo.size, "variaciones");
 
 // Resolver manager_legajo para cada fila
 const employees = [];
 let managersResolved = 0, managersNotFound = 0;
 
 for (const r of rows) {
-  const reportaKey = (r.reportaA || "").toLowerCase();
+  const reportaA_norm = normalize(r.reportaA);
   let managerLegajo = "";
 
-  if (reportaKey) {
-    // "RANEA MAURICIO" → "ranea mauricio" = shortKey
-    managerLegajo = shortKeyToLegajo.get(reportaKey) || "";
+  if (reportaA_norm) {
+    // Intentar match directo primero
+    managerLegajo = nameToLegajo.get(reportaA_norm);
+    
+    // Si no, intentar con el primer apellido y primer nombre de la cadena "Reporta A"
+    if (!managerLegajo) {
+      const parts = reportaA_norm.split(" ");
+      if (parts.length >= 2) {
+        managerLegajo = nameToLegajo.get(`${parts[0]} ${parts[1]}`);
+      }
+    }
+
     if (managerLegajo) {
       managersResolved++;
     } else {
@@ -72,8 +97,8 @@ for (const r of rows) {
   });
 }
 
-console.log("Managers resueltos por legajo:", managersResolved);
-console.log("Managers NO encontrados:", managersNotFound);
+console.log("Managers resueltos correctamente:", managersResolved);
+console.log("Managers NO encontrados (posibles jefes externos o faltantes):", managersNotFound);
 
 // --- Enriquecer con Excel oficial (email, cargo, area) ---
 // Leemos el excel via el json que ya generamos antes con excel_to_json
@@ -138,10 +163,8 @@ for (const line of adLines) {
 let adEmails = 0;
 for (const emp of employees) {
   if (emp.email) continue;
-  const key = shortKey(
-    emp.nombre.includes(",") ? emp.nombre.split(",")[0] : emp.nombre,
-    emp.nombre.includes(",") ? emp.nombre.split(",")[1] : ""
-  );
+  const [ape, nom] = emp.nombre.split(",").map(normalize);
+  const key = `${ape.split(" ")[0]} ${nom.split(" ")[0]}`;
   const found = adByShortKey.get(key);
   if (found) { emp.email = found; adEmails++; }
 }
@@ -155,8 +178,8 @@ console.log("Con cargo:", employees.filter(e => e.cargo).length);
 console.log("Con área:", employees.filter(e => e.area).length);
 console.log("Con manager_legajo:", employees.filter(e => e.manager_legajo).length);
 
-// Verificación Ranea
-const raneaLeg = shortKeyToLegajo.get("ranea mauricio");
+// Verificación RANEA
+const raneaLeg = nameToLegajo.get("ranea mauricio");
 const reportanARanea = employees.filter(e => e.manager_legajo === raneaLeg);
 console.log("\nVerificación RANEA (legajo " + raneaLeg + "): " + reportanARanea.length + " reportes directos");
 

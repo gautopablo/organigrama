@@ -21,8 +21,11 @@ MVP para visualizar, gestionar y depurar el organigrama empresarial usando:
    - `npm install`
 2. Configurar variables:
    - copiar `.env.example` a `.env`
+   - completar keys reales de Supabase
+   - validar: `npm run doctor:supabase`
 3. Aplicar migraciones en Supabase:
-   - `supabase db push` (si usás Supabase CLI)
+   - SQL Editor con `supabase/migrations/20260406_001_init_orgchart.sql`
+   - detalle en [docs/supabase-bootstrap.md](docs/supabase-bootstrap.md)
 4. Ejecutar frontend:
    - `npm run dev:web`
 5. Ejecutar tests:
