@@ -1,15 +1,23 @@
 # Changelog
 
+## 0.3.0 - 2026-04-08
+
+### Added & Fixed
+
+- Mejoras en formato de exportación e importación CSV: eliminación de ID interno, inclusión de Legajo y mapeo de División.
+- Corrección de opciones predeterminadas del organigrama (ocultar 'sueltos') e interacciones de expandir/colapsar (eliminando bugs de arrastre).
+- Nueva función de expandir/colapsar nodos en organigrama, reducción de distancia horizontal de tarjetas y cambio a panel lateral (sidebar) para edición.
+
+## 0.2.0 - 2026-04-07
+
+### Added & Fixed
+
+- Nuevo campo `división`, soporte para edición en línea ("in-app editing") desde el directorio y corrección del anclaje superior de navegación (sticky header layout).
+- Organigrama interactivo introduciendo `React Flow`, adición de la página de "Ayuda" y la vista lateral para edición directa.
+
 ## 0.1.0 - 2026-04-06
 
-### Added
-- Estructura del proyecto (`apps/web`, `supabase`, `docs/adr`, `scripts`, `tests`).
-- Migración inicial Supabase con:
-  - tablas `employees`, `reporting_lines`, `orgchart_staging`, `orgchart_conflicts`, `orgchart_decisions`, `import_batches`, `reporting_line_audit`
-  - índices y RLS por rol
-  - RPC `get_orgchart`, `search_employees`, `update_manager`, `list_conflicts`, `resolve_conflict`
-- Edge function `upload-source` para ingesta y reconciliación inicial.
-- Frontend React con 4 vistas: Organigrama, Directorio, Importación, Conflictos.
-- Utilidades de reconciliación y script de carga desde `info`.
-- ADRs de arquitectura y priorización de fuentes.
-- CI base y template de PR.
+### Added & Fixed
+
+- Implementación de procesamiento inicial de datos y fix de jerarquías para importar correctamente desde información cruda.
+- Bootstrap de la aplicación Organigrama MVP (Tablas iniciales en Supabase, vistas principales, funciones Edge de importación, RLS).
