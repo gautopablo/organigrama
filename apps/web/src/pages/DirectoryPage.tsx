@@ -29,13 +29,13 @@ export function DirectoryPage() {
       return;
     }
 
-    const headers = ["ID", "Nombre", "Email", "Cargo", "Área", "División", "Reporta a", "Confianza", "Origen"];
+    const headers = ["Legajo", "Nombre", "Email", "Cargo", "Área", "División", "Reporta a", "Confianza", "Origen"];
     
     const csvContent = [
       headers.join(","),
       ...filteredRows.map(r => {
         const row = [
-          r.id,
+          r.legajo || "",
           r.nombre,
           r.email || "",
           r.cargo || "",

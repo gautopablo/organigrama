@@ -230,9 +230,6 @@ export function OrgFlow({ nodes, onSelectEmployee, onEditEmployee }: Props) {
         edges={flowEdges}
         nodeTypes={nodeTypes}
         fitView
-        nodesDraggable={false}
-        nodesConnectable={false}
-        elementsSelectable={false}
         minZoom={0.1}
         maxZoom={1.5}
       >

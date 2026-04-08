@@ -54,9 +54,10 @@ Deno.serve(async (req) => {
       const nombre = row["Usuario (tabla usuarios)"] || row["Usuario (organigrama)"] || row["nombre"] || "";
       const manager = row["Superior (tabla usuarios)"] || row["Superior (organigrama)"] || row["manager"] || "";
       const legajo = row["Legajo usuario"] || row["Legajo"] || row["legajo"] || null;
-      const email = row["Email usuario"] || row["email"] || null;
-      const cargo = row["Cargo usuario"] || row["cargo"] || null;
+      const email = row["Email usuario"] || row["Email"] || row["email"] || null;
+      const cargo = row["Cargo usuario"] || row["Cargo"] || row["cargo"] || null;
       const area = row["Área"] || row["area"] || null;
+      const division = row["División"] || row["division"] || row["división"] || null;
 
       const employeeKey = buildEmployeeKey({ legajo, email, nombre });
       const managerKey = manager
@@ -80,6 +81,7 @@ Deno.serve(async (req) => {
           legajo,
           cargo,
           area,
+          division,
           confidence
         },
         employee_key: employeeKey,
@@ -100,6 +102,7 @@ Deno.serve(async (req) => {
         legajo: normalized.legajo,
         cargo: normalized.cargo,
         area: normalized.area,
+        division: normalized.division,
         source_batch_id: batchId
       };
 

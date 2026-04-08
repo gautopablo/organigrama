@@ -74,25 +74,14 @@ export function EmployeeEditor({ employee, onClose, onSave }: Props) {
       if (empError) throw empError;
 
       // 2. Actualizar línea de reporte si cambió
-      if (formData.manager_id !== currentManagerId) {
-        // Desactivar líneas anteriores
-        await supabase
-          .from("reporting_lines")
-          .update({ active: false })
-          .eq("employee_id", currentEmployeeId);
-
-        // Crear nueva línea si hay un manager seleccionado
-        if (formData.manager_id) {
-          const { error: lineError } = await supabase
-            .from("reporting_lines")
-            .insert({
-              employee_id: currentEmployeeId,
-              manager_id: formData.manager_id,
-              source: 'manual',
-              confidence: 'AUTO_OK'
-            });
-          if (lineError) throw lineError;
-        }
+      const newManagerId = formData.manager_id === "" ? null : formData.manager_id;
+      if (newManagerId !== currentManagerId) {
+        const { error: rpcError } = await supabase.rpc('update_manager', {
+          p_employee_id: currentEmployeeId,
+          p_manager_id: newManagerId
+        });
+        
+        if (rpcError) throw rpcError;
       }
 
       onSave();
