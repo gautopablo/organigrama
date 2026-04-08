@@ -35,6 +35,8 @@ function EmployeeNode({ data }: NodeProps<Node<EmployeeNodeData>>) {
       <Handle type="target" position={Position.Top} style={{ background: '#3b82f6', width: '8px', height: '8px' }} />
       
       <button 
+        className="nodrag nopan"
+        type="button"
         style={{ position: 'absolute', top: '8px', right: '8px', background: 'transparent', border: 'none', cursor: 'pointer', color: '#94a3b8' }}
         onClick={(e) => {
           e.stopPropagation();
@@ -57,7 +59,8 @@ function EmployeeNode({ data }: NodeProps<Node<EmployeeNodeData>>) {
       )}
       <div style={{ marginTop: '0.75rem', paddingTop: '0.5rem', borderTop: '1px solid #f1f5f9', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
         <button 
-          className="secondary" 
+          className="secondary nodrag nopan" 
+          type="button"
           style={{ padding: '2px 6px', fontSize: '10px', flex: 1 }}
           onClick={(e) => {
             e.stopPropagation();
@@ -68,6 +71,8 @@ function EmployeeNode({ data }: NodeProps<Node<EmployeeNodeData>>) {
         </button>
         {data.hasChildren && (
           <button
+            className="nodrag nopan"
+            type="button"
             style={{ 
               background: 'transparent', border: '1px solid #cbd5e1', borderRadius: '4px', padding: '2px 6px', 
               cursor: 'pointer', color: '#64748b', display: 'flex', alignItems: 'center', justifyContent: 'center' 
@@ -225,6 +230,9 @@ export function OrgFlow({ nodes, onSelectEmployee, onEditEmployee }: Props) {
         edges={flowEdges}
         nodeTypes={nodeTypes}
         fitView
+        nodesDraggable={false}
+        nodesConnectable={false}
+        elementsSelectable={false}
         minZoom={0.1}
         maxZoom={1.5}
       >

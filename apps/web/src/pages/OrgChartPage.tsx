@@ -14,7 +14,7 @@ export function OrgChartPage() {
   const [error, setError] = useState<string>("");
   const [viewMode, setViewMode] = useState<'flow' | 'classic'>('flow');
   const [selectedEmployeeForEdit, setSelectedEmployeeForEdit] = useState<OrgNode | null>(null);
-  const [hideOrphans, setHideOrphans] = useState(false);
+  const [hideOrphans, setHideOrphans] = useState(true);
 
   const employeeOptions = useMemo(() => 
     allEmployees.map(e => ({
@@ -39,6 +39,14 @@ export function OrgChartPage() {
     try {
       const emps = await searchEmployees("");
       setAllEmployees(emps);
+      
+      // Select Alejandro Cano by default on first load
+      if (!rootId) {
+        const cano = emps.find(e => e.nombre.toLowerCase().includes("cano") && e.nombre.toLowerCase().includes("alejandro"));
+        if (cano) {
+          setRootId(cano.id);
+        }
+      }
     } catch (e) {
       console.error(e);
     }
