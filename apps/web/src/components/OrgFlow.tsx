@@ -1,5 +1,5 @@
 import * as dagre from "dagre";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import {
   ReactFlow,
   MiniMap,
@@ -14,15 +14,18 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import type { OrgNode } from "../types/orgchart";
-import { FiEdit2 } from "react-icons/fi";
+import { FiEdit2, FiChevronDown, FiChevronUp } from "react-icons/fi";
 
 type EmployeeNodeData = {
   label: string;
   cargo: string;
   area: string;
   email: string;
+  hasChildren: boolean;
+  isCollapsed: boolean;
   onSelect: () => void;
   onEdit: () => void;
+  onToggleCollapse: () => void;
 };
 
 // Tarjeta personalizada para cada empleado
@@ -52,7 +55,7 @@ function EmployeeNode({ data }: NodeProps<Node<EmployeeNodeData>>) {
           {data.email}
         </small>
       )}
-      <div style={{ marginTop: '0.75rem', paddingTop: '0.5rem', borderTop: '1px solid #f1f5f9', display: 'flex', gap: '0.5rem' }}>
+      <div style={{ marginTop: '0.75rem', paddingTop: '0.5rem', borderTop: '1px solid #f1f5f9', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
         <button 
           className="secondary" 
           style={{ padding: '2px 6px', fontSize: '10px', flex: 1 }}
@@ -63,6 +66,21 @@ function EmployeeNode({ data }: NodeProps<Node<EmployeeNodeData>>) {
         >
           Ver Rama
         </button>
+        {data.hasChildren && (
+          <button
+            style={{ 
+              background: 'transparent', border: '1px solid #cbd5e1', borderRadius: '4px', padding: '2px 6px', 
+              cursor: 'pointer', color: '#64748b', display: 'flex', alignItems: 'center', justifyContent: 'center' 
+            }}
+            onClick={(e) => {
+              e.stopPropagation();
+              data.onToggleCollapse();
+            }}
+            title={data.isCollapsed ? "Expandir rama" : "Colapsar rama"}
+          >
+            {data.isCollapsed ? <FiChevronDown size={14} /> : <FiChevronUp size={14} />}
+          </button>
+        )}
       </div>
       <Handle type="source" position={Position.Bottom} style={{ background: '#3b82f6', width: '8px', height: '8px' }} />
     </div>
@@ -91,7 +109,7 @@ const getLayoutedElements = (nodes: Node[], edges: Edge[]) => {
   
   dagreGraph.setGraph({ 
     rankdir: 'TB', 
-    nodesep: 150, // Más espacio horizontal
+    nodesep: 75, // Ajustado a la mitad
     ranksep: 200  // Más espacio vertical
   });
 
@@ -120,26 +138,61 @@ const getLayoutedElements = (nodes: Node[], edges: Edge[]) => {
 };
 
 export function OrgFlow({ nodes, onSelectEmployee, onEditEmployee }: Props) {
+  const [collapsedNodes, setCollapsedNodes] = useState<Set<string>>(new Set());
+
+  const handleToggleCollapse = (id: string) => {
+    setCollapsedNodes((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      return next;
+    });
+  };
+
   const layouted = useMemo(() => {
     if (!nodes || nodes.length === 0) return { nodes: [], edges: [] };
 
-    const rawNodes: Node[] = nodes.map((n) => ({
-      id: n.employee_id,
-      type: 'employee',
-      position: { x: 0, y: 0 },
-      data: { 
-        label: n.nombre, 
-        cargo: n.cargo, 
-        area: n.area, 
-        email: n.email,
-        onSelect: () => onSelectEmployee?.(n.employee_id),
-        onEdit: () => onEditEmployee?.(n)
-      },
-    }));
+    const visibleNodesIds = new Set<string>();
+    
+    const traverse = (nodeId: string) => {
+      visibleNodesIds.add(nodeId);
+      if (!collapsedNodes.has(nodeId)) {
+        const children = nodes.filter(n => n.manager_id === nodeId);
+        children.forEach(c => traverse(c.employee_id));
+      }
+    };
+
+    const roots = nodes.filter(n => !n.manager_id || !nodes.some(m => m.employee_id === n.manager_id));
+    roots.forEach(r => traverse(r.employee_id));
+
+    const visibleNodesList = nodes.filter(n => visibleNodesIds.has(n.employee_id));
+
+    const rawNodes: Node[] = visibleNodesList.map((n) => {
+      const children = nodes.filter(child => child.manager_id === n.employee_id);
+      return {
+        id: n.employee_id,
+        type: 'employee',
+        position: { x: 0, y: 0 },
+        data: { 
+          label: n.nombre, 
+          cargo: n.cargo, 
+          area: n.area, 
+          email: n.email,
+          hasChildren: children.length > 0,
+          isCollapsed: collapsedNodes.has(n.employee_id),
+          onSelect: () => onSelectEmployee?.(n.employee_id),
+          onEdit: () => onEditEmployee?.(n),
+          onToggleCollapse: () => handleToggleCollapse(n.employee_id)
+        },
+      };
+    });
 
     const rawEdges: Edge[] = [];
-    nodes.forEach((n) => {
-      if (n.manager_id && nodes.some(m => m.employee_id === n.manager_id)) {
+    visibleNodesList.forEach((n) => {
+      if (n.manager_id && visibleNodesIds.has(n.manager_id)) {
         rawEdges.push({
           id: `e-${n.manager_id}-${n.employee_id}`,
           source: n.manager_id,
