@@ -128,9 +128,27 @@ Deno.serve(async (req) => {
         row["Superior Email"] || 
         row["manager_email"] || 
         null;
+      
+      const activeAttr = 
+        row["Active"] || 
+        row["active"] || 
+        row["Activo"] || 
+        row["activo"] || 
+        null;
+
+      // Logic to determine boolean value for 'active'
+      let active: boolean | null = null;
+      if (activeAttr !== null) {
+        const val = String(activeAttr).toLowerCase().trim();
+        if (val === "true" || val === "1" || val === "sí" || val === "si" || val === "active" || val === "activo") {
+          active = true;
+        } else if (val === "false" || val === "0" || val === "no" || val === "inactive" || val === "inactivo") {
+          active = false;
+        }
+      }
 
       if (idx === 0) {
-        console.log("[Process] Sample mapping for row 0:", { nombre, email, legajo, managerName, managerEmail });
+        console.log("[Process] Sample mapping for row 0:", { nombre, email, legajo, managerName, managerEmail, active });
       }
 
       // Basic validation: skip rows without name
@@ -144,13 +162,14 @@ Deno.serve(async (req) => {
         area: area ? String(area).trim() : null,
         division: division ? String(division).trim() : null,
         manager_name: managerName ? String(managerName).trim() : null,
-        manager_email: normalizeEmail(managerEmail)
+        manager_email: normalizeEmail(managerEmail),
+        active: active // If null, RPC defaults to true
       };
     }).filter(row => row !== null);
 
-    console.log(`[Database] Invoking import_directory_wipe_load with ${preparedRows.length} valid rows`);
+    console.log(`[Database] Invoking import_directory_upsert with ${preparedRows.length} valid rows`);
     
-    const { data: result, error: rpcError } = await supabase.rpc("import_directory_wipe_load", {
+    const { data: result, error: rpcError } = await supabase.rpc("import_directory_upsert", {
       p_rows: preparedRows
     });
 

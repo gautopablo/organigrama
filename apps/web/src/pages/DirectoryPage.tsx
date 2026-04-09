@@ -80,9 +80,30 @@ export function DirectoryPage() {
     <section className="content-section">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
         <h2 style={{ margin: 0 }}>Directorio</h2>
-        <button onClick={handleExport} className="secondary" disabled={filteredRows.length === 0}>
-          Exportar CSV
-        </button>
+        <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <button 
+            onClick={() => setSelectedForEdit({
+              employee_id: 'new',
+              legajo: '',
+              nombre: '',
+              email: '',
+              cargo: '',
+              area: '',
+              division: '',
+              manager_id: null,
+              level: 0,
+              confidence: 'AUTO_OK',
+              source: 'manual',
+              active: true
+            })}
+            className="primary"
+          >
+            Nueva Persona
+          </button>
+          <button onClick={handleExport} className="secondary" disabled={filteredRows.length === 0}>
+            Exportar CSV
+          </button>
+        </div>
       </div>
       <div className="panel">
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', width: '100%', alignItems: 'flex-end' }}>
@@ -160,6 +181,7 @@ export function DirectoryPage() {
                   className="icon-btn" 
                   onClick={() => setSelectedForEdit({
                     employee_id: r.id,
+                    legajo: r.legajo,
                     nombre: r.nombre,
                     email: r.email,
                     cargo: r.cargo,
@@ -168,7 +190,8 @@ export function DirectoryPage() {
                     manager_id: r.manager_id,
                     level: 0,
                     confidence: r.confidence,
-                    source: r.source
+                    source: r.source,
+                    active: r.active
                   })}
                 >
                   <FiEdit2 size={16} />

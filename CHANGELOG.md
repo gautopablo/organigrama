@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.5 - 2026-04-09
+
+### Added
+
+- **Creación manual de personas**: Nueva opción en el Directorio para añadir colaboradores directamente.
+- **Legajo obligatorio**: Implementación de validación de legajo para asegurar la integridad de los datos.
+- **Integración jerárquica**: Posibilidad de asignar manager al crear el perfil, posicionando automáticamente al colaborador en el organigrama.
+
 ## 0.3.4 - 2026-04-09
 
 ### Fixed

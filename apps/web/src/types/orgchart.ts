@@ -1,5 +1,6 @@
 export type OrgNode = {
   employee_id: string;
+  legajo: string | null;
   manager_id: string | null;
   nombre: string;
   email: string | null;
@@ -9,6 +10,7 @@ export type OrgNode = {
   level: number;
   confidence: "AUTO_OK" | "REVIEW_REQUIRED";
   source: string | null;
+  active: boolean;
 };
 
 export type EmployeeDirectoryRow = {
@@ -24,6 +26,7 @@ export type EmployeeDirectoryRow = {
   manager_name: string | null;
   confidence: "AUTO_OK" | "REVIEW_REQUIRED";
   source: string | null;
+  active: boolean;
 };
 
 export type ConflictRow = {
