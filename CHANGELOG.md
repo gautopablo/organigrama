@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.4 - 2026-04-09
+
+### Fixed
+
+- Error 500 en importación: Se corrigió una ruta de importación inválida en la Edge Function `upload-source`.
+- Resiliencia de datos: Mejora en el mapeo de columnas del CSV (soporte para variantes como "Puesto", "Area", "Superior").
+- Logs: Implementación de logging detallado para diagnóstico de errores en tiempo real.
+
 ## 0.3.3 - 2026-04-09
 
 ### Fixed

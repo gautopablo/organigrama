@@ -17,7 +17,7 @@ export function AppShell({ children }: PropsWithChildren) {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <h1>Organigrama v0.3.3</h1>
+        <h1>Organigrama v0.3.4</h1>
         <nav>
           {navItems.map((item) => (
             <Link

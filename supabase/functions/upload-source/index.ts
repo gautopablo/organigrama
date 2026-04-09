@@ -6,20 +6,27 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
 };
 
-import {
-  normalizeEmail
-} from "./reconciliation.ts";
+// CORRECTED PATH: Shared logic is in ../_shared/
+// Inlined normalization logic to avoid import path issues in Edge Functions
+function normalizeText(value: string | null | undefined): string {
+  return (value ?? "").trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+function normalizeEmail(value: string | null | undefined): string | null {
+  const email = normalizeText(value);
+  return email.length ? email : null;
+}
 
 type CsvRow = Record<string, string>;
 
 function parseCsv(text: string): CsvRow[] {
   const result = Papa.parse(text, {
     header: true,
-    skipEmptyLines: true,
+    skipEmptyLines: "greedy", // More robust for trailing commas
     transformHeader: (h) => h.trim()
   });
   if (result.errors.length > 0) {
-    console.warn("CSV Parse errors:", result.errors);
+    console.warn("[CSV Parse] Errors encountered:", result.errors);
   }
   return result.data as CsvRow[];
 }
@@ -34,31 +41,45 @@ Deno.serve(async (req) => {
     const serviceRole = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
     const supabase = createClient(supabaseUrl, serviceRole);
 
-    const form = await req.formData();
+    console.log("[Request] Method:", req.method, "URL:", req.url);
+
+    const form = await req.formData().catch((e: any) => {
+        console.error("[Request] Failed to parse formData:", e);
+        throw new Error("Cargando archivo: Formato de cuerpo inválido");
+    });
+
     const file = form.get("file");
     if (!(file instanceof File)) {
-      return new Response(JSON.stringify({ error: "file requerido" }), {
+      console.error("[Request] No file found in formData");
+      return new Response(JSON.stringify({ error: "Archivo requerido (campo 'file')" }), {
         status: 400,
         headers: { ...corsHeaders, "content-type": "application/json" }
       });
     }
 
-    console.log(`Processing file: ${file.name}, size: ${file.size} bytes`);
+    console.log(`[Process] File: ${file.name}, size: ${file.size} bytes`);
     const text = await file.text();
     const rows = parseCsv(text);
-    console.log(`Parsed ${rows.length} rows from CSV`);
+    console.log(`[Process] Parsed ${rows.length} rows from CSV`);
+
+    if (rows.length === 0) {
+        throw new Error("El archivo CSV está vacío o no se ha podido procesar");
+    }
 
     // Normalize rows for the RPC
     const preparedRows = rows.map((row, idx) => {
-      // Expanded mapping to match user's actual CSV headers
+      // Extensive mapping for all known variations in user's exports
       const nombre = 
         row["Nombre"] || 
         row["nombre"] || 
+        row["Nombre completo"] || 
+        row["Nombre Completo"] || 
         row["Usuario (tabla usuarios)"] || 
         row["Usuario (organigrama)"] || 
         "";
       
       const managerName = 
+        row["Superior"] || 
         row["Reporta a"] || 
         row["Superior (tabla usuarios)"] || 
         row["Superior (organigrama)"] || 
@@ -66,61 +87,100 @@ Deno.serve(async (req) => {
         row["Manager"] || 
         "";
       
-      const legajo = row["Legajo"] || row["legajo"] || row["Legajo usuario"] || null;
-      const email = row["Email"] || row["email"] || row["Email usuario"] || null;
-      const cargo = row["Cargo"] || row["cargo"] || row["Cargo usuario"] || null;
-      const area = row["Área"] || row["area"] || row["Area"] || null;
-      const division = row["División"] || row["division"] || row["división"] || row["Division"] || null;
+      const legajo = 
+        row["Legajo"] || 
+        row["legajo"] || 
+        row["Legajo usuario"] || 
+        row["Legajo Usuario"] || 
+        null;
+
+      const email = 
+        row["Email"] || 
+        row["email"] || 
+        row["Correo"] || 
+        row["Email usuario"] || 
+        null;
+
+      const cargo = 
+        row["Cargo"] || 
+        row["cargo"] || 
+        row["Puesto"] || 
+        row["puesto"] || 
+        row["Cargo usuario"] || 
+        null;
+
+      const area = 
+        row["Área"] || 
+        row["area"] || 
+        row["Area"] || 
+        null;
+
+      const division = 
+        row["División"] || 
+        row["division"] || 
+        row["división"] || 
+        row["Division"] || 
+        null;
       
       const managerEmail = 
         row["Email Superior"] || 
         row["Email superior"] || 
+        row["Superior Email"] || 
         row["manager_email"] || 
         null;
 
       if (idx === 0) {
-        console.log("Sample row 0 mapping:", { nombre, email, legajo, managerName, managerEmail });
+        console.log("[Process] Sample mapping for row 0:", { nombre, email, legajo, managerName, managerEmail });
       }
 
+      // Basic validation: skip rows without name
+      if (!nombre && !email) return null;
+
       return {
-        nombre,
+        nombre: String(nombre).trim(),
         email: normalizeEmail(email),
-        legajo: legajo ? String(legajo) : null,
-        cargo,
-        area,
-        division,
-        manager_name: managerName,
+        legajo: legajo ? String(legajo).trim() : null,
+        cargo: cargo ? String(cargo).trim() : null,
+        area: area ? String(area).trim() : null,
+        division: division ? String(division).trim() : null,
+        manager_name: managerName ? String(managerName).trim() : null,
         manager_email: normalizeEmail(managerEmail)
       };
-    });
+    }).filter(row => row !== null);
 
-    console.log(`Invoking import_directory_wipe_load with ${preparedRows.length} normalized rows`);
+    console.log(`[Database] Invoking import_directory_wipe_load with ${preparedRows.length} valid rows`);
+    
     const { data: result, error: rpcError } = await supabase.rpc("import_directory_wipe_load", {
       p_rows: preparedRows
     });
 
     if (rpcError) {
-      console.error("RPC Error:", rpcError);
+      console.error("[Database] RPC Error:", rpcError);
       throw rpcError;
     }
 
-    console.log("RPC Success result:", result);
+    console.log("[Database] Import successful. Snapshot ID:", result?.snapshot_id);
 
     return new Response(JSON.stringify({ 
       ok: true, 
-      batch_id: result?.snapshot_id || "N/A",
-      rows: preparedRows.length,
+      snapshot_id: result?.snapshot_id || "N/A",
+      rows_processed: preparedRows.length,
       stats: result
     }), {
       headers: { ...corsHeaders, "content-type": "application/json" }
     });
 
   } catch (error) {
-    console.error("Import error details:", error);
-    return new Response(JSON.stringify({ ok: false, error: (error as Error).message }), {
+    console.error("[Error] Critical failure in upload-source:", error);
+    return new Response(JSON.stringify({ 
+        ok: false, 
+        error: (error as Error).message,
+        details: "Check Supabase Function logs for more information."
+    }), {
       status: 500,
       headers: { ...corsHeaders, "content-type": "application/json" }
     });
   }
 });
+
 
