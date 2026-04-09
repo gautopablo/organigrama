@@ -1,0 +1,280 @@
+﻿Legajo;Nombre;Email;Cargo;Área;División;Reporta a;Confianza;Origen
+110010;Bustos Lara, Jorge Andres;bustosj@taranto.com.ar;Líder corte juntas blandas;Producción Sellado;;;;
+110012;Vargas, Ricardo Ramon;vargas@taranto.com.ar;Líder planta UTIV;Producción UT4;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+110018;Chena, Marcos Omar;chena@taranto.com.ar;;;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110022;Arancibia, Fabian Antonio;;;;;;;
+110023;De Los Santos, Sergio Anibal;santoss@taranto.com.ar;Líder empaque y expedición;Producción Sellado;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110032;Sanchez, Nelson Dario;sancheza@taranto.com.ar;Analista Ingeniería;Ingeniería;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110034;Aguero, Jorge Jose;aguero@taranto.com.ar;Líder planta UTI / UTII;Producción UT1-2;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+110035;Nievas, Nestor Edgardo;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+110037;Avenda�O, Enrique Daniel;avendano@taranto.com.ar;Líder turno;Producción Sellado;;;;
+110040;Perez Quinteros, Marcelo Alejandro;perezm@taranto.com.ar;Auditor GICASH / Analista de planeamiento y control de la producción;GICASH;;Illanez, Eduardo Javier;AUTO_OK;bulk_local_import
+110041;Oro, Daniel Ceferino;;;;;;;
+110042;Vargas, Nestor Horacio;vargasn@taranto.com.ar;Líder armado juegos;Producción Sellado;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110044;Aciar, Marcelo Omar;aciar@taranto.com.ar;Líder turno;Div. Suspensión y Dirección;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110046;Bumjeil, Juan Alfonso;bumjeil@taranto.com.ar;Líder Matricería;Matricería;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+110047;Gallardo, Guillermo Eduardo;;;;;;;
+110052;Montano, Juan Fernando;;;;;;;
+110058;Oliva, Juan Jose;;;;;;;
+110065;Cappa Naveda, Sergio Andres;;;;;Andrada Tello, Jorge Washington;AUTO_OK;bulk_local_import
+110066;Heredia, Jorge Marcelo;;;;;;;
+110067;Carrizo, Daniel Ricardo;carrizo@taranto.com.ar;Asistente Compras y facturación;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+110068;Zalazar, Sergio Esteban;;;;;Fiol, Jaime Sebastian;AUTO_OK;bulk_local_import
+110076;Poblete, Victor Ramon;poblete@taranto.com.ar;Líder planta UTIII;Producción UT3;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+110085;Anitori, Rafael Dario;anitori@taranto.com.ar;Auditor GICASH;GICASH;;Illanez, Eduardo Javier;AUTO_OK;bulk_local_import
+110088;Gonzalez, Cristian Ruben;;;;;;;
+110090;Perez, Rogelio Carlos;perezr@taranto.com.ar;;;;;;
+110096;Gonzalez, Ariel Fabio;;Gestión de Operaciones México;General;;;;
+110099;Chaves Lopez, Eduardo Alfredo;;;;;;;
+110103;Garcia, Adolfo Andres;garcia@taranto.com.ar;;;;;;
+110104;Martin, Marcelo Alfonso;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+110108;Llado, Damian;damian@taranto.com.ar;Líder Sistemas;Sistemas;;Cane, Alejandro Raul;;
+110109;Sirerol, Gustavo Ariel;;;;;;;
+110118;Almeida, Nelson Heriberto;;;;;;;
+110123;Firmapaz, Alfredo Luis;firmapaz@taranto.com.ar;Asistente Ingeniería;Ingeniería;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import
+110125;Naveda, Juan Alberto;;;;;;;
+110127;Moreno, Omar Alejandro;;Analista COMEX;Abastecimiento y Planificación;;;;
+110128;Rodriguez, Marcelo Felix;;;;;Fiol, Jaime Sebastian;AUTO_OK;bulk_local_import
+110146;Troncozo, Juan Antonio;troncoso@taranto.com.ar;Responsable seguridad y salud trabajo;GICASH;;Dasta Cudo, Maria Fabiola;;
+110149;Cuevas, Jose Luis;;;;;;;
+110157;Moncho, Alejandro Roman;;;;;;;
+110158;Benegas, Andres Javier;;;;;;;
+110182;Rosas, Gustavo Daniel;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+110188;Molina, Claudio Alejandro;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110191;Gonzalez, Nelson Anibal;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110195;Cane, Alejandro Raul;cane@taranto.com.ar;Director Industrial UT;General;;Taranto, Diego;;
+110204;Guardia, Adrian Hugo;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+110206;Pereyra, Elio Cesar;pereyrae@taranto.com.ar;Responsable gestión proveedores y medio ambiente;GICASH;;Dasta Cudo, Maria Fabiola;;
+110220;Leiva, Daniel Ernesto;;;;;;;
+110232;Ginestar, Adrian Jesus;;;;;Fiol, Jaime Sebastian;AUTO_OK;bulk_local_import
+110247;Salinas, Luis Eduardo;;;;;;;
+110249;Fluixa Ripoll, Jaime Leonardo;fluixal@taranto.com.ar;Auditor GICASH;Div. Suspensión y Dirección;;;;
+110250;Vargas, Juan Ramon;;;;;Garcia, Adolfo Andres;AUTO_OK;bulk_local_import
+110253;Ruarte, Sergio Carlos;;;;;;;
+110258;Alarrivera, Francisco Javier;;;;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110263;Nievas, Alejandro Javier;;;;;;;
+110269;Albornoz, Ariel Alberto;;;;;;;
+110272;Figueroa, Leonardo Ernesto;;;;;;;
+110282;Novaro, Fernando Dario;;;;;;;
+110283;Morales, Ricardo Daniel;morales@taranto.com.ar;;;;Illanez, Eduardo Javier;AUTO_OK;bulk_local_import
+110287;Aguero, Gaston Adrian;aguerog@taranto.com.ar;Líder planta UTIII;Producción UT3;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+110289;Rodriguez, Elvio Ruben;elvior@taranto.com.ar;Analista Programador Sistemas;Sistemas;;Llado, Damian;AUTO_OK;bulk_local_import
+110304;Canadas, Sergio Daniel;;;;;Chaves, Marcelo Ariel;AUTO_OK;bulk_local_import
+110305;Pellicer, Diego Javier;;;;;Bumjeil, Juan Alfonso;AUTO_OK;bulk_local_import
+110314;Mereles, Rolando Hector;;;;;Vargas, Nestor Horacio;AUTO_OK;bulk_local_import
+110322;Flores Meni, Alejandro Martin;flores@taranto.com.ar;Asistente Recepción materiales;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+110326;Sanchez, Fabian Alejandro;;;;;Bumjeil, Juan Alfonso;AUTO_OK;bulk_local_import
+110330;Aguero, Miguel Angel;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+110334;Herrera, Ricardo Andres;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+110341;Chaves, Marcelo Ariel;;Líder Mantenimiento UTIII - UTIV;Mantenimiento/Mecatrónica;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+110355;Chavero, Miguel Angel;;;;;;;
+110358;Silva, Miguel Angel;;;;;;;
+110359;Salinas, Mario Andres;;;;;;;
+110360;Gonzalez, Omar Alejandro;gonzalezo@taranto.com.ar;;;;Bumjeil, Juan Alfonso;AUTO_OK;bulk_local_import
+110369;Fernandez, Enrique Mario;;;;;;;
+110379;Rios, Leonardo Andres;riosl@taranto.com.ar;Asistente PCP UTIII;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+110383;Mercado, Javier Andres;;;;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+110388;Zarate, Maximiliano;;;;;;;
+110392;Castro, Fernando Ramon;;;;;Garcia, Adolfo Andres;AUTO_OK;bulk_local_import
+110404;Salina, Juan Fernando;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+110407;Paez Charra, Sergio Daniel;paezs@taranto.com.ar;;;;;;
+110430;Marti, Luis Alberto;marti@taranto.com.ar;;Mantenimiento/Mecatrónica;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+110435;Romero, Mario Alberto;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110437;Troncozo, Miguel Angel;;;;;;;
+110438;Chaves, Marcos Antonio;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+110444;Adaro, Gabriel German;adarog@taranto.com.ar;;;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+110445;Goria, Guillermo Antonio;goria@taranto.com.ar;Responsable laboratorio y metrología;GICASH;;Dasta Cudo, Maria Fabiola;;
+110446;Granado, Gerardo Alberto;;;;;;;
+110450;Vieyra, Roberto Mauro;;;;;Bumjeil, Juan Alfonso;AUTO_OK;bulk_local_import
+110454;Gutierrez Torres, Alfredo Damian;;;;;Bumjeil, Juan Alfonso;AUTO_OK;bulk_local_import
+110456;Garcia, Alberto Sebastian;;;;;;;
+110460;Ranea Vera, Mauricio;ranea@taranto.com.ar;Gerente Ingeniería;Ingeniería;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+110463;Olmos, Cristian Leonardo;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110464;Aguero, Fernando Ariel;aguerof@taranto.com.ar;;;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+110469;Aragon, Mauricio Javier;aragonm@taranto.com.ar;Líder turno;Div. Suspensión y Dirección;;Fiol, Jaime Sebastian;AUTO_OK;bulk_local_import
+110473;Aciar, Pablo Daniel;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110477;Gonzalez, Juan Manuel;;;;;;;
+110480;Vargas, Maximiliano Emanuel;;;;;;;
+110587;Vargas, Mauricio Martin;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110589;Pelayes, Claudio Javier;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+110592;Diaz, Oscar Nazareno;;;;;;;
+110606;Diaz, Raul Argentino;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+110619;Chicahuala, Emiliano Gaston;;;;;;;
+110633;Manrique, Marcelo Daniel;;Referente de Mantenimiento UTV;Mantenimiento/Mecatrónica;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+110634;Andrada Tello, Jorge Washington;andradaj@taranto.com.ar;Líder stock;Producción Sellado;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110648;Martinez, Federico Gaston;martinezf@taranto.com.ar;Asistente Logística;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+110651;Leiva, Mauricio Roberto;leivam@taranto.com.ar;Asistente Ingeniería;Ingeniería;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import
+110670;Acosta, Pablo Gaston;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+110677;Wawro, Hugo Alejandro;wawro@taranto.com.ar;Analista PCP UTIV;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+110679;Gomez Roldan, Pablo Enrique;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+110684;Suesa, Mariela Cristina;suesa@taranto.com.ar;Asistente Administración / Recepción;Administración;;Furlani, Noelia Del Valle;AUTO_OK;bulk_local_import
+110692;Elizondo, Eduardo Abel;elizondom@taranto.com.ar;Asistente Ingeniería de desarrollo;Div. Suspensión y Dirección;;Garcia, Adolfo Andres;AUTO_OK;bulk_local_import
+110693;Matus, Carlos Gabriel;;;;;;;
+110703;Micheletti, Mario Andres;micheletti@taranto.com.ar;Auditor GICASH;GICASH;;Illanez, Eduardo Javier;AUTO_OK;bulk_local_import
+110710;Dias, Jose Luis;;Líder Mantenimiento UTI - UTII;Mantenimiento/Mecatrónica;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+110712;Varas, Oscar Gerardo;;;;;Vargas, Nestor Horacio;AUTO_OK;bulk_local_import
+110758;Luna, Matias Norberto;;;;;Dias, Jose Luis;AUTO_OK;bulk_local_import
+110774;Aguirre, Vicente Javier;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+110803;Bustos, Abraham Dario;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110804;Bernardello, Mario Alberto;;;;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110813;Rios, Osvaldo Andres;;;;;;;
+110832;Vera, Raul Omar;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+110849;Villarreal, Hector Daniel;;;;;;;
+110881;Caballero, Maria Cecilia;ccaballero@taranto.com.ar;Gerente Capital Humano;Capital Humano;;Cane, Alejandro Raul;;
+110890;Contreras, Roberto Abel;;;;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110900;Fiol, Jaime Sebastian;fiol@taranto.com.ar;Líder planta / Responsable División Caja de Dirección, Suspensión y Fricción;Producción UT5;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+110905;Maldonado, Sergio Sebastian;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+110922;Videla, Luis Cesar;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+110929;Aguero, Roque David;;;;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+110933;Sanchez, Mario Alberto;;;;;;;
+110934;Bustos, Claudio Marcelo;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+110936;Reta, Jose Omar;;;;;;;
+110937;Romero, Daniel Javier;;Chofer;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+110945;Aballay Cabanay, Maximiliano Ariel;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+110948;Furlani, Noelia Del Valle;furlani@taranto.com.ar;Líder Administración;Administración;;Cane, Alejandro Raul;;
+110952;Vega, Diego Alberto;;;;;;;
+110954;Perez, Carlos William;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+110967;Barrios Luna, Silvio Mauricio;;;;;;;
+110969;Gomez Aldalla, Victor Miguel;gomezv@taranto.com.ar;;;;;;
+110971;Dias, Antonio Hernan;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+110987;Correa, Sebastian Ignacio;;;;;Fiol, Jaime Sebastian;AUTO_OK;bulk_local_import
+110988;Atampiz, David Anibal;gestiondeproveedores@taranto.com.ar;;;;;;
+110989;Croco, Martin Emanuel;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+110994;Torres, Luis Nicolas;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+110996;Cesped, Juan Sebastian;;;;;;;
+110998;Castro, Juan Carlos;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+110999;Bustos Pelayes, Edgar Leonardo;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+111001;Quiroga, Mario Alejandro;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+111004;Melian, Americo;amelian@taranto.com.ar;Asistente laboratorio;GICASH;;Dasta Cudo, Maria Fabiola;;
+111012;Ortiz Diaz, Hugo;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+510418;Correa Torres, Matias Ezequiel;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+510419;Frias, Victor Daniel;;;;;;;
+510423;Salinas, Jorge David;;;;;;;
+510429;Aguero, Gaston Facundo;aguerog@taranto.com.ar;;;;;;
+510436;Fornes, Jose Manuel;fornesm@taranto.com.ar;Asistente PCP UTI - UTII;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+510437;Calivar Alameda, Pedro Jesus;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+510455;Navarro, Juan Pablo;;;;;Dias, Jose Luis;AUTO_OK;bulk_local_import
+510456;Zalazar, William Enrique;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+510477;Gomez Fernandez, Sergio D;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+510500;Dominguez, Ramon Saul;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+510506;Flores Guzman, Lucas Sebastian;;;;;Dias, Jose Luis;AUTO_OK;bulk_local_import
+510508;Lucero, Cristian Adrian;;;;;Chena, Marcos Omar;AUTO_OK;bulk_local_import
+510531;Pastran, Leandro Daniel;;;;;Chaves, Marcelo Ariel;AUTO_OK;bulk_local_import
+510572;Correa, Marcelo Alejandro;;;;;Dias, Jose Luis;AUTO_OK;bulk_local_import
+510574;Altamira, Alejandro Andres;;;;;;;
+510577;Flores, Jorge Gonzalo;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+510578;Malla, Jorge Joaquin;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+510605;Sanchez, Cintia Valeria;;;;;;;
+510701;Fabregas Bavio, Maria Ester;fabregas@taranto.com.ar;Gerente Mantenimiento y Mecatrónica;Mantenimiento/Mecatrónica;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+511041;Figueroa Brizuela, Patricia Del Carmen;figueroa@taranto.com.ar;Responsable CH UTIII - UTIV;Capital Humano;;Caballero, Maria Cecilia;AUTO_OK;bulk_local_import
+511268;Gil Alvea, Maria Marcela;;;;;Caballero, Maria Cecilia;AUTO_OK;bulk_local_import
+511285;Correa Povse, Silvia Paola;correa@taranto.com.ar;Analista PCP;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+511333;Suarez, Nicolas Jesus;;;;;;;
+511499;Fernandez, Ricardo Javier;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+511547;Nu�Ez, Alejandro;;;;;Chena, Marcos Omar;AUTO_OK;bulk_local_import
+511549;Cordoba Maldonado, Nelson David;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+511556;Barrera Castro, Neri Miguel;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+511613;Almiron, Juan Ismael;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+511628;Escudero, Adrian Eduardo;;;;;Vargas, Nestor Horacio;AUTO_OK;bulk_local_import
+511726;Ruiz, Juan Jose;;;;;;;
+512103;Fernandez Allendes, Jose Miguel;;;;;Chaves, Marcelo Ariel;AUTO_OK;bulk_local_import
+512187;Jofre, Gonzalo;jofreg@taranto.com.ar;;;;;;
+512216;Dasta Cudo, Maria Fabiola;dasta@taranto.com.ar;Gerente GICASH;GICASH;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+512234;Brochero, Walter Hector Javier;brochero@taranto.com.ar;Ingeniero de Procesos;Ingeniería;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import
+512307;Illanez, Eduardo Javier;illanez@taranto.com.ar;Líder GICASH;GICASH;;Dasta Cudo, Maria Fabiola;;
+512365;Rosales, Fernando Gabriel;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+512521;Alcanis, Jael Solange;alcanis@taranto.com.ar;Analista CH;Capital Humano;;Caballero, Maria Cecilia;AUTO_OK;bulk_local_import
+512629;Correa, Noelia Yanina;correan@taranto.com.ar;Asistente Tesorería;Administración;;Furlani, Noelia Del Valle;AUTO_OK;bulk_local_import
+512633;Gutierrez Cumpian, Nelio Sebastian;gutierrezs@taranto.com.ar;Gerente Abastecimiento y planificación;Abastecimiento y Planificación;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+512664;Chiffel, Claudio Federico;chiffel@taranto.com.ar;;;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+512857;Correa, Eliana Cecilia;correae@taranto.com.ar;Asistente Compras y facturación;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+513013;Gordillo, Diego Exequiel;;;;;;;
+513098;Lopez, Matias Andres;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+513247;Bustos Castro, Juan Carlos;;;;;;;
+513346;Heredia, Leonardo Miguel;;;;;;;
+513494;Rodriguez Lopez, Juan Manuel;rodriguezjm@taranto.com.ar;Responsable administración personal;Capital Humano;;Caballero, Maria Cecilia;AUTO_OK;bulk_local_import
+513939;Ariza, Hugo Daniel;;;;;;;
+513942;Castro, Juan Manuel;;;;;;;
+513959;Brizuela, Gabriel Jose;;;;;Garcia, Adolfo Andres;AUTO_OK;bulk_local_import
+513960;Formano, Ricardo Ariel;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+513965;Botella Herrera, Alfonso Antonio;;;;;Bumjeil, Juan Alfonso;AUTO_OK;bulk_local_import
+513980;Guardia, Raul Antonio;;;;;;;
+513981;Vilches, Luis Ivan;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+514161;Perez, Maribel Andrea;perezma@taranto.com.ar;;;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+514189;Aranciva, Silvana Valeria;;;;;Vargas, Nestor Horacio;AUTO_OK;bulk_local_import
+514190;Barroso Luna, Viviana Deolinda;;;;;Andrada Tello, Jorge Washington;AUTO_OK;bulk_local_import
+514206;Garcia Suesa, Nahuel Emiliano;garciae@taranto.com.ar;Asistente PCP;Abastecimiento y Planificación;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+514207;Soto Poblete, Juan Jose;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+514209;Iba�Ez, Javier Gonzalo;;;;;;;
+514243;Veron, Pablo Damian;;;;;Fiol, Jaime Sebastian;AUTO_OK;bulk_local_import
+514252;Bustos Matamora, Patricio Felipe;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+514285;Delgado, Fabian Gerardo;;;;;Andrada Tello, Jorge Washington;AUTO_OK;bulk_local_import
+514286;Castro, Javier Ivan;;;;;;;
+514288;Vargas, Alejandro Antonio;;;;;Andrada Tello, Jorge Washington;AUTO_OK;bulk_local_import
+514290;Barboza Velazquez, Marcelo Ariel;;;;;;;
+514291;Alejos, Marcelo David;;;;;Andrada Tello, Jorge Washington;AUTO_OK;bulk_local_import
+514295;Ruarte, Carlos Alberto;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+514304;Hobredor Lescano, Lucas Matias;;;;;;;
+514307;Aballay Gerone, Jairo De Jesus;;;;;;;
+514316;Hernandez Rodriguez, Walter Guillermo;;;;;;;
+514318;Gimenez, Juan Jose;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+514319;Gonzalez Ojeda, Rodrigo Esequiel;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+514325;Castro, Cristian Alberto;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+514346;Galleguillo Ochoa, Luis Ignacio;;;;;;;
+514353;Vera Fernandez, Juan Esequiel;veraj@taranto.com.ar;Asistente Ingeniería;Ingeniería;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import
+514389;Silva Salcedo, Julio Cesar;;;;;;;
+514396;Cerda Cardozo, Hernan Gabriel;;;;;;;
+514397;Rodriguez Picon, Daniel Fernando;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+514398;Bernardini, Silvio Guillermo;bernardini@taranto.com.ar;Líder Mantenimiento;Mantenimiento/Mecatrónica;;Cane, Alejandro Raul;AUTO_OK;bulk_local_import
+514419;Balmaceda, Fernando Daniel;;;;;;;
+514434;Diaz Guerra, Roberto Gerardo;;;;;;;
+514448;Maldonado, Sergio Matias;;;;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+514461;Aguilera, Jon Franco;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+514513;Molina, Williams Alfredo;;;;;Garcia, Adolfo Andres;AUTO_OK;bulk_local_import
+514514;Maldonado, Lucas;;;;;;;
+514518;Olivares, Jorge German;;;;;;;
+514527;Ramo, Lucas Ricardo;;;;;Bustos Lara, Jorge Andres;AUTO_OK;bulk_local_import
+514535;Corroza, Matias Maximiliano;;;;;;;
+514545;Guardia, Marcos Daniel;;;;;Andrada Tello, Jorge Washington;AUTO_OK;bulk_local_import
+514585;Cumpian Baca, Rodolfo Alejandro;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+514606;Jofre, Leonel De Jesus;;;;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+514608;Zalazar, Oscar Matias;;;;;;;
+514628;Castro Gonzalez, Miguel Alejandro;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+514629;Correa, Raul Osvaldo;;;;;Chaves, Marcelo Ariel;AUTO_OK;bulk_local_import
+514634;Molina, Angel Josue;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+514641;Guillen, Lucas Oscar;guillen@taranto.com.ar;Analista Ingeniería;Div. Suspensión y Dirección;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import
+514644;Forte, Maximiliano Exequiel;;;;;;;
+514645;Gamboa, Miguel Alejandro;;;;;;;
+514646;Tejada, Guillermo Martin;;;;;Garcia, Adolfo Andres;AUTO_OK;bulk_local_import
+514652;Castro Paez, Gonzalo Alejandro;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+514654;Encina Gonzalez, Paublo Exequiel;;;;;;;
+514655;Cortez Aguero, Alexander Abel;;;;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+514664;Lopez Jofre, Fernando Ariel;;;;;Jofre, Gonzalo;AUTO_OK;bulk_local_import
+514673;Navarro, Braian Alejandro;;;;;Perez, Rogelio Carlos;AUTO_OK;bulk_local_import
+514689;Escudero, Nelson Mauricio;;;;;;;
+514709;Gomez Caceres, Pedro Fernando;;;;;;;
+514749;Riveros, Victor Emilio;riveros@taranto.com.ar;Analista Ingeniería;Ingeniería;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import
+514766;Sanchez Malgioglio, Valentina Noe;sanchezv@taranto.com.ar;Asistente administrativa;Administración;;Furlani, Noelia Del Valle;AUTO_OK;bulk_local_import
+514781;Ozan, Emanuel Osvaldo;;;;;Vargas, Ricardo Ramon;AUTO_OK;bulk_local_import
+514787;Donoso Silva, Cristian Javier;;;;;Dias, Jose Luis;AUTO_OK;bulk_local_import
+514788;Mercado Perez, Gonzalo Imanol;;;;;Chaves, Marcelo Ariel;AUTO_OK;bulk_local_import
+514792;Turchetti Castro, Cecilia Giovana;turchetti@taranto.com.ar;Analista Mecatrónica;Mantenimiento/Mecatrónica;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+514796;Gomez Lescano, Enzo Gustavo;gomeze@taranto.com.ar;;;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+514908;Mu�Oz Ponce, Guillermo Vicente;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+514909;Pineda Castro, Mariano;;;;;Poblete, Victor Ramon;AUTO_OK;bulk_local_import
+514911;Correa Pose, Matias Emanuel;;;;;Chena, Marcos Omar;AUTO_OK;bulk_local_import
+514914;Vazquez Sobelvio, Maria Del Pilar;vazquezp@taranto.com.ar;Analista Diseño;Ingeniería;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import
+514919;Rivero Echegaray, Eduardo Luis;riveroe@taranto.com.ar;Analista Mecatrónica;Mantenimiento/Mecatrónica;;Fabregas Bavio, Maria Ester;AUTO_OK;bulk_local_import
+514926;Nu�Ez, Franco Dario;;;;;;;
+514927;Guardia Farias, Emiliano Nicolas;;;;;;;
+514929;Yacanto, Eraldo  Gaston;;;;;Paez Charra, Sergio Daniel;AUTO_OK;bulk_local_import
+514930;Sosa, Delia Noemi;;;;;;;
+514938;Carrizo, Vanesa Giselle;;;;;;;
+514939;Arrieta Leiva, Nahuel Agustin;;;;;;;
+514940;Leal, Yanina Barbara;;;;;;;
+514941;Diaz, Lidia Pilar;;;;;;;
+514951;Pantano, Cristina Del Valle;;;;;;;
+514957;Kenan Bustos, Maria Lourdes;kenanm@taranto.com.ar;;;;Furlani, Noelia Del Valle;AUTO_OK;bulk_local_import
+514979;Parra Frate, Juan Francisco;;;;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import
+514990;Castilla Sierra, Maria Paz;castillam@taranto.com.ar;;;;Gutierrez Cumpian, Nelio Sebastian;AUTO_OK;bulk_local_import
+514991;Gauto, Pablo Facundo;gautop@taranto.com.ar;;;;Ranea Vera, Mauricio;AUTO_OK;bulk_local_import

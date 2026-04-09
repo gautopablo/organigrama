@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.3.3 - 2026-04-09
+
+### Fixed
+
+- Corregido error 500 en la función de carga por rutas de importación incorrectas en el despliegue.
+- Añadido logging detallado en backend para diagnóstico de importaciones.
+- Forzada conversión a String de Legajos para evitar discrepancias de tipos JSON.
+
+## 0.3.2 - 2026-04-08
+
+### Added & Fixed
+
+- **Modelo "Wipe & Load"**: Implementación de sistema determinista de limpieza y carga masiva via RPC.
+- **Robustez CSV**: Integración de `PapaParse` para manejar correctamente nombres con comas y comillas.
+- **Mapeo Inteligente**: Soporte expandido para cabeceras de exportación (`Reporta a`, `Área`, `División`, `Legajo`).
+- **Backup Automático**: Creación de snapshots en base de datos antes de cada importación destructiva.
+
+## 0.3.1 - 2026-04-08
+
+### CORS & UI Fixed
+
+- Corrección de error de conexión en la Edge Function mediante la implementación de soporte para CORS.
+- Actualización de versión en la interfaz de usuario.
+
 ## 0.3.0 - 2026-04-08
 
 ### Added & Fixed
